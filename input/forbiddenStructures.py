@@ -350,3 +350,17 @@ u"""
 """,
 )
 
+entry(
+    label = "S2_zwitterion",
+    group =
+"""
+1 S u0 p3 c-1 {2,S}
+2 S u0 p2 c+1 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+Forbidden since no atom types are currently defined for this species in RMG
+""",
+)
+
