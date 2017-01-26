@@ -21,7 +21,7 @@ recipe(actions=[
 entry(
     index = 1,
     label = "doublebond",
-    group = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, Sd_Cd, N3d_N3d, N3d_Cd}",
+    group = "OR{Cd_Cdd, Cdd_Cd, Cd_Cd, S2d_Cd, N3d_N3d, N3d_Cd}",
     kinetics = None,
 )
 
@@ -963,17 +963,17 @@ entry(
 
 entry(
     index = 66,
-    label = "Sd_Cd",
-    group = "OR{Sd_Cds, Sd_Cdd}",
+    label = "S2d_Cd",
+    group = "OR{S2d_Cds, S2d_Cdd}",
     kinetics = None,
 )
 
 entry(
     index = 67,
-    label = "Sd_Cdd",
+    label = "S2d_Cdd",
     group = 
 """
-1 *1 Sd  u0 {2,D}
+1 *1 S2d  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
 3    R   u0 {2,D}
 """,
@@ -982,10 +982,10 @@ entry(
 
 entry(
     index = 81,
-    label = "Sd_Cdd/Cd",
+    label = "S2d_Cdd/Cd",
     group = 
 """
-1 *1 Sd  u0 {2,D}
+1 *1 S2d  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
 3    Cd  u0 {2,D}
 """,
@@ -994,10 +994,10 @@ entry(
 
 entry(
     index = 82,
-    label = "Sd_Cdd/Od",
+    label = "S2d_Cdd/Od",
     group = 
 """
-1 *1 Sd  u0 {2,D}
+1 *1 S2d  u0 {2,D}
 2 *2 Cdd u0 {1,D} {3,D}
 3    Od  u0 {2,D}
 """,
@@ -1006,10 +1006,10 @@ entry(
 
 entry(
     index = 68,
-    label = "Sd_Cds",
+    label = "S2d_Cds",
     group = 
 """
-1 *1 Sd u0 {2,D}
+1 *1 S2d u0 {2,D}
 2 *2 CS u0 {1,D} {3,S} {4,S}
 3    R  u0 {2,S}
 4    R  u0 {2,S}
@@ -1019,10 +1019,10 @@ entry(
 
 entry(
     index = 69,
-    label = "Sd_Cd/unsub",
+    label = "S2d_Cd/unsub",
     group = 
 """
-1 *1 Sd u0 {2,D}
+1 *1 S2d u0 {2,D}
 2 *2 CS u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    H  u0 {2,S}
@@ -1032,10 +1032,10 @@ entry(
 
 entry(
     index = 70,
-    label = "Sd_Cd/monosub",
+    label = "S2d_Cd/monosub",
     group = 
 """
-1 *1 Sd  u0 {2,D}
+1 *1 S2d  u0 {2,D}
 2 *2 CS  u0 {1,D} {3,S} {4,S}
 3    H   u0 {2,S}
 4    R!H u0 {2,S}
@@ -1045,10 +1045,10 @@ entry(
 
 entry(
     index = 71,
-    label = "Sd_Cd/H/Nd",
+    label = "S2d_Cd/H/Nd",
     group = 
 """
-1 *1 Sd       u0 {2,D}
+1 *1 S2d       u0 {2,D}
 2 *2 CS       u0 {1,D} {3,S} {4,S}
 3    H        u0 {2,S}
 4    [Cs,O,S] u0 {2,S}
@@ -1058,10 +1058,10 @@ entry(
 
 entry(
     index = 72,
-    label = "Sd_Cd/H/De",
+    label = "S2d_Cd/H/De",
     group = 
 """
-1 *1 Sd            u0 {2,D}
+1 *1 S2d            u0 {2,D}
 2 *2 CS            u0 {1,D} {3,S} {4,S}
 3    H             u0 {2,S}
 4    [Cd,Ct,Cb,CO] u0 {2,S}
@@ -1071,10 +1071,10 @@ entry(
 
 entry(
     index = 72,
-    label = "Sd_Cd/H/Cd",
+    label = "S2d_Cd/H/Cd",
     group = 
 """
-1 *1 Sd u0 {2,D}
+1 *1 S2d u0 {2,D}
 2 *2 CS u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    Cd u0 {2,S}
@@ -1084,10 +1084,10 @@ entry(
 
 entry(
     index = 73,
-    label = "Sd_Cd/H/Cb",
+    label = "S2d_Cd/H/Cb",
     group = 
 """
-1 *1 Sd u0 {2,D}
+1 *1 S2d u0 {2,D}
 2 *2 CS u0 {1,D} {3,S} {4,S}
 3    H  u0 {2,S}
 4    Cb u0 {2,S}
@@ -1097,10 +1097,10 @@ entry(
 
 entry(
     index = 74,
-    label = "Sd_Cd/disub",
+    label = "S2d_Cd/disub",
     group = 
 """
-1 *1 Sd  u0 {2,D}
+1 *1 S2d  u0 {2,D}
 2 *2 CS  u0 {1,D} {3,S} {4,S}
 3    R!H u0 {2,S}
 4    R!H u0 {2,S}
@@ -1110,10 +1110,10 @@ entry(
 
 entry(
     index = 75,
-    label = "Sd_Cd/Nd2",
+    label = "S2d_Cd/Nd2",
     group = 
 """
-1 *1 Sd       u0 {2,D}
+1 *1 S2d       u0 {2,D}
 2 *2 CS       u0 {1,D} {3,S} {4,S}
 3    [Cs,O,S] u0 {2,S}
 4    [Cs,O,S] u0 {2,S}
@@ -1123,10 +1123,10 @@ entry(
 
 entry(
     index = 76,
-    label = "Sd_Cd/CsCs",
+    label = "S2d_Cd/CsCs",
     group = 
 """
-1 *1 Sd u0 {2,D}
+1 *1 S2d u0 {2,D}
 2 *2 CS u0 {1,D} {3,S} {4,S}
 3    Cs u0 {2,S}
 4    Cs u0 {2,S}
@@ -1136,10 +1136,10 @@ entry(
 
 entry(
     index = 77,
-    label = "Sd_Cd/CsOs",
+    label = "S2d_Cd/CsOs",
     group = 
 """
-1 *1 Sd u0 {2,D}
+1 *1 S2d u0 {2,D}
 2 *2 CS u0 {1,D} {3,S} {4,S}
 3    Cs u0 {2,S}
 4    O  u0 {2,S}
@@ -1149,10 +1149,10 @@ entry(
 
 entry(
     index = 78,
-    label = "Sd_Cd/Nd/De",
+    label = "S2d_Cd/Nd/De",
     group = 
 """
-1 *1 Sd            u0 {2,D}
+1 *1 S2d            u0 {2,D}
 2 *2 CS            u0 {1,D} {3,S} {4,S}
 3    [Cs,O,S]      u0 {2,S}
 4    [Cd,Ct,Cb,CO] u0 {2,S}
@@ -1162,10 +1162,10 @@ entry(
 
 entry(
     index = 77,
-    label = "Sd_Cd/De2",
+    label = "S2d_Cd/De2",
     group = 
 """
-1 *1 Sd            u0 {2,D}
+1 *1 S2d            u0 {2,D}
 2 *2 CS            u0 {1,D} {3,S} {4,S}
 3    [Cd,Ct,Cb,CO] u0 {2,S}
 4    [Cd,Ct,Cb,CO] u0 {2,S}
@@ -1528,23 +1528,23 @@ L1: doublebond
             L4: Cd/De2_Cd/Nd2
             L4: Cd/De2_Cd/Nd/De
             L4: Cd/De2_Cd/De2
-    L2: Sd_Cd
-        L3: Sd_Cdd
-            L4: Sd_Cdd/Cd
-            L4: Sd_Cdd/Od
-        L3: Sd_Cds
-            L4: Sd_Cd/unsub
-            L4: Sd_Cd/monosub
-                L5: Sd_Cd/H/Nd
-                L5: Sd_Cd/H/De
-                    L6: Sd_Cd/H/Cd
-                    L6: Sd_Cd/H/Cb
-            L4: Sd_Cd/disub
-                L5: Sd_Cd/Nd2
-                    L6: Sd_Cd/CsCs
-                    L6: Sd_Cd/CsOs
-                L5: Sd_Cd/Nd/De
-                L5: Sd_Cd/De2
+    L2: S2d_Cd
+        L3: S2d_Cdd
+            L4: S2d_Cdd/Cd
+            L4: S2d_Cdd/Od
+        L3: S2d_Cds
+            L4: S2d_Cd/unsub
+            L4: S2d_Cd/monosub
+                L5: S2d_Cd/H/Nd
+                L5: S2d_Cd/H/De
+                    L6: S2d_Cd/H/Cd
+                    L6: S2d_Cd/H/Cb
+            L4: S2d_Cd/disub
+                L5: S2d_Cd/Nd2
+                    L6: S2d_Cd/CsCs
+                    L6: S2d_Cd/CsOs
+                L5: S2d_Cd/Nd/De
+                L5: S2d_Cd/De2
     L2: N3d_N3d
     L2: N3d_Cd
 L1: R_OR

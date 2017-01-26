@@ -175,7 +175,7 @@ entry(
 
 entry(
     index = 701,
-    label = "Sd_Cd/unsub;H_OH",
+    label = "S2d_Cd/unsub;H_OH",
     kinetics = ArrheniusEP(
         A = (0.243, 'cm^3/(mol*s)'),
         n = 3.55,
@@ -190,7 +190,7 @@ entry(
 
 entry(
     index = 702,
-    label = "Sd_Cd/H/Nd;H_OH",
+    label = "S2d_Cd/H/Nd;H_OH",
     kinetics = ArrheniusEP(
         A = (0.00266, 'cm^3/(mol*s)'),
         n = 3.95,
@@ -235,7 +235,7 @@ entry(
 
 entry(
     index = 705,
-    label = "Sd_Cd/H/Cb;H_OH",
+    label = "S2d_Cd/H/Cb;H_OH",
     kinetics = ArrheniusEP(
         A = (0.0164, 'cm^3/(mol*s)'),
         n = 3.89,
@@ -250,7 +250,7 @@ entry(
 
 entry(
     index = 706,
-    label = "Sd_Cd/CsCs;H_OH",
+    label = "S2d_Cd/CsCs;H_OH",
     kinetics = ArrheniusEP(
         A = (5.06e-05, 'cm^3/(mol*s)'),
         n = 4.54,
@@ -361,7 +361,7 @@ AG Vandeputte, calculated the rate coefficient for methanol + ethene -> propanol
 
 entry(
     index = 717,
-    label = "Sd_Cd/CsOs;H_OH",
+    label = "S2d_Cd/CsOs;H_OH",
     kinetics = ArrheniusEP(
         A = (1.04e-05, 'cm^3/(mol*s)'),
         n = 4.64,
@@ -376,7 +376,7 @@ entry(
 
 entry(
     index = 718,
-    label = "Sd_Cdd/Od;H_OH",
+    label = "S2d_Cdd/Od;H_OH",
     kinetics = ArrheniusEP(
         A = (4.39e-07, 'cm^3/(mol*s)'),
         n = 5.4,
@@ -391,7 +391,7 @@ entry(
 
 entry(
     index = 719,
-    label = "Sd_Cd/H/Cd;H_OH",
+    label = "S2d_Cd/H/Cd;H_OH",
     kinetics = ArrheniusEP(
         A = (0.0598, 'cm^3/(mol*s)'),
         n = 3.75,

@@ -4681,7 +4681,7 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ss u0 {1,S}
+2   S2s u0 {1,S}
 3   R  u0 {1,S}
 4   R  u0 {1,S}
 """,
@@ -4695,11 +4695,11 @@ u"""
 
 entry(
     index = 244,
-    label = "CsJ-SsHH",
+    label = "CsJ-S2sHH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ss u0 {1,S}
+2   S2s u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 """,
@@ -4723,7 +4723,7 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = None,
@@ -4736,12 +4736,12 @@ u"""
 
 entry(
     index = 245,
-    label = "CsJ-CsSsH",
+    label = "CsJ-CsS2sH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4759,12 +4759,12 @@ u"""
 
 entry(
     index = 247,
-    label = "CsJ-CtSsH",
+    label = "CsJ-CtS2sH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4782,12 +4782,12 @@ u"""
 
 entry(
     index = 248,
-    label = "CsJ-CbSsH",
+    label = "CsJ-CbS2sH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -4805,12 +4805,12 @@ u"""
 
 entry(
     index = 246,
-    label = "CsJ-CdSsH",
+    label = "CsJ-CdS2sH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   C  u0 {2,D}
 """,
@@ -4829,14 +4829,14 @@ u"""
 
 entry(
     index = 249,
-    label = "CsJ-C=SSsH",
+    label = "CsJ-C=SS2sH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CS u0 {1,S} {5,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
-5   Sd u0 {2,D}
+5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4859,7 +4859,7 @@ entry(
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -4871,13 +4871,13 @@ u"""
 
 entry(
     index = 251,
-    label = "CsJ-CsCsSs",
+    label = "CsJ-CsCsS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4894,13 +4894,13 @@ u"""
 
 entry(
     index = 253,
-    label = "CsJ-CsCtSs",
+    label = "CsJ-CsCtS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4917,13 +4917,13 @@ u"""
 
 entry(
     index = 254,
-    label = "CsJ-CsCbSs",
+    label = "CsJ-CsCbS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4940,13 +4940,13 @@ u"""
 
 entry(
     index = 252,
-    label = "CsJ-CsCdSs",
+    label = "CsJ-CsCdS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   C  u0 {2,D}
 """,
     thermo = ThermoData(
@@ -4964,14 +4964,14 @@ u"""
 
 entry(
     index = 255,
-    label = "CsJ-CsC=SSs",
+    label = "CsJ-CsC=SS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CS u0 {1,S} {5,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Sd u0 {2,D}
+4   S2s u0 {1,S}
+5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4992,8 +4992,8 @@ entry(
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
 4   R  u0 {1,S}
 """,
     thermo = None,
@@ -5006,12 +5006,12 @@ u"""
 
 entry(
     index = 250,
-    label = "CsJ-SsSsH",
+    label = "CsJ-S2sS2sH",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -5034,8 +5034,8 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5047,13 +5047,13 @@ u"""
 
 entry(
     index = 256,
-    label = "CsJ-CsSsSs",
+    label = "CsJ-CsS2sS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cs u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5070,13 +5070,13 @@ u"""
 
 entry(
     index = -1,
-    label = "CsJ-CtSsSs",
+    label = "CsJ-CtS2sS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Ct u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5088,13 +5088,13 @@ u"""
 
 entry(
     index = -1,
-    label = "CsJ-CbSsSs",
+    label = "CsJ-CbS2sS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cb u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5106,13 +5106,13 @@ u"""
 
 entry(
     index = -1,
-    label = "CsJ-CdSsSs",
+    label = "CsJ-CdS2sS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Cd u0 {1,S} {5,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   C  u0 {2,D}
 """,
     thermo = None,
@@ -5125,14 +5125,14 @@ u"""
 
 entry(
     index = -1,
-    label = "CsJ-C=SSsSs",
+    label = "CsJ-C=SS2sS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   CS u0 {1,S} {5,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Sd u0 {2,D}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2d u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5144,13 +5144,13 @@ u"""
 
 entry(
     index = -1,
-    label = "CsJ-SsSsSs",
+    label = "CsJ-S2sS2sS2s",
     group = 
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5168,7 +5168,7 @@ entry(
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   C  u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = u'CCsJOHSH',
     shortDesc = u"""""",
@@ -5185,7 +5185,7 @@ entry(
 """
 1 * Cs u1 {2,S} {3,S} {4,S}
 2   Os u0 {1,S} {5,S}
-3   Ss u0 {1,S} {6,S}
+3   S2s u0 {1,S} {6,S}
 4   C  u0 {1,S}
 5   H  u0 {2,S}
 6   H  u0 {3,S}
@@ -6356,11 +6356,11 @@ DOI: 10.1002/chem.201301381
 
 entry(
     index = 257,
-    label = "CdsJ-Ss",
+    label = "CdsJ-S2s",
     group = 
 """
 1 * Cd u1 {2,S} {3,D}
-2   Ss u0 {1,S}
+2   S2s u0 {1,S}
 3   C  u0 {1,D}
 """,
     thermo = ThermoData(
@@ -6466,7 +6466,7 @@ entry(
     group = 
 """
 1 * CS u1 {2,D}
-2   Sd u0 {1,D}
+2   S2d u0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6478,12 +6478,12 @@ u"""
 
 entry(
     index = -1,
-    label = "C=SJ-Ss",
+    label = "C=SJ-S2s",
     group = 
 """
 1 * CS u1 {2,S} {3,D}
-2   Ss u0 {1,S}
-3   Sd u0 {1,D}
+2   S2s u0 {1,S}
+3   S2d u0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6500,7 +6500,7 @@ entry(
 """
 1 * CS u1 {2,S} {3,D}
 2   H  u0 {1,S}
-3   Sd u0 {1,D}
+3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6522,7 +6522,7 @@ entry(
 """
 1 * CS u1 {2,S} {3,D}
 2   C  u0 {1,S}
-3   Sd u0 {1,D}
+3   S2d u0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6539,7 +6539,7 @@ entry(
 """
 1 * CS u1 {2,S} {3,D}
 2   Cd u0 {1,S}
-3   Sd u0 {1,D}
+3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6561,7 +6561,7 @@ entry(
 """
 1 * CS u1 {2,S} {3,D}
 2   Cs u0 {1,S}
-3   Sd u0 {1,D}
+3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7235,7 +7235,7 @@ entry(
     label = "SJ",
     group = 
 """
-1 * Ss u1
+1 * S2s u1
 """,
     thermo = u'OJ',
     shortDesc = u"""""",
@@ -7250,7 +7250,7 @@ entry(
     label = "SJ-H",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7271,7 +7271,7 @@ entry(
     label = "SJ-C",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   C  u0 {1,S}
 """,
     thermo = None,
@@ -7287,7 +7287,7 @@ entry(
     label = "SJ-Cs",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7308,7 +7308,7 @@ entry(
     label = "SJ-Ct",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   Ct u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7329,7 +7329,7 @@ entry(
     label = "SJ-Cb",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   Cb u0 {1,S}
 """,
     thermo = ThermoData(
@@ -7350,7 +7350,7 @@ entry(
     label = "SJ-Cd",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   Cd u0 {1,S} {3,D}
 3   C  u0 {2,D}
 """,
@@ -7372,9 +7372,9 @@ entry(
     label = "SJ-C=S",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   CS u0 {1,S} {3,D}
-3   Sd u0 {2,D}
+3   S2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7394,7 +7394,7 @@ entry(
     label = "SJ-CO",
     group = 
 """
-1 * Ss u1 {2,S}
+1 * S2s u1 {2,S}
 2   CO u0 {1,S} {3,D}
 3   Od u0 {2,D}
 """,
@@ -7413,11 +7413,11 @@ u"""
 
 entry(
     index = -1,
-    label = "SJ-Ss",
+    label = "SJ-S2s",
     group = 
 """
-1 * Ss u1 {2,S}
-2   Ss u0 {1,S}
+1 * S2s u1 {2,S}
+2   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -7429,11 +7429,11 @@ u"""
 
 entry(
     index = 241,
-    label = "SJ-Ss-H",
+    label = "SJ-S2s-H",
     group = 
 """
-1 * Ss u1 {2,S}
-2   Ss u0 {1,S} {3,S}
+1 * S2s u1 {2,S}
+2   S2s u0 {1,S} {3,S}
 3   H  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -7451,11 +7451,11 @@ u"""
 
 entry(
     index = 242,
-    label = "SJ-Ss-Cs",
+    label = "SJ-S2s-Cs",
     group = 
 """
-1 * Ss u1 {2,S}
-2   Ss u0 {1,S} {3,S}
+1 * S2s u1 {2,S}
+2   S2s u0 {1,S} {3,S}
 3   C  u0 {2,S}
 """,
     thermo = ThermoData(
@@ -7473,12 +7473,12 @@ u"""
 
 entry(
     index = 243,
-    label = "SJ-Ss-Ss",
+    label = "SJ-S2s-S2s",
     group = 
 """
-1 * Ss u1 {2,S}
-2   Ss u0 {1,S} {3,S}
-3   Ss u0 {2,S}
+1 * S2s u1 {2,S}
+2   S2s u0 {1,S} {3,S}
+3   S2s u0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7713,11 +7713,11 @@ Is this pointing toward the singlet a good idea? -nyee
 
 entry(
     index = 262,
-    label = "CdJ2-Sd_triplet",
+    label = "CdJ2-S2d_triplet",
     group = 
 """
 1 * CS u2 {2,D}
-2   Sd u0 {1,D}
+2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8020,11 +8020,11 @@ u"""
 
 entry(
     index = 261,
-    label = "CdJ2-Sd_singlet",
+    label = "CdJ2-S2d_singlet",
     group = 
 """
 1 * CS u0 p1 {2,D}
-2   Sd u0 {1,D}
+2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8343,28 +8343,28 @@ L1: Radical
                         L7: C2CsJOOH
                         L7: C2CsJOOC
                 L5: CsJ-S
-                    L6: CsJ-SsHH
+                    L6: CsJ-S2sHH
                     L6: CsJ-CSH
-                        L7: CsJ-CsSsH
-                        L7: CsJ-CtSsH
-                        L7: CsJ-CbSsH
-                        L7: CsJ-CdSsH
-                        L7: CsJ-C=SSsH
+                        L7: CsJ-CsS2sH
+                        L7: CsJ-CtS2sH
+                        L7: CsJ-CbS2sH
+                        L7: CsJ-CdS2sH
+                        L7: CsJ-C=SS2sH
                     L6: CsJ-CCS
-                        L7: CsJ-CsCsSs
-                        L7: CsJ-CsCtSs
-                        L7: CsJ-CsCbSs
-                        L7: CsJ-CsCdSs
-                        L7: CsJ-CsC=SSs
+                        L7: CsJ-CsCsS2s
+                        L7: CsJ-CsCtS2s
+                        L7: CsJ-CsCbS2s
+                        L7: CsJ-CsCdS2s
+                        L7: CsJ-CsC=SS2s
                     L6: CsJ-SS
-                        L7: CsJ-SsSsH
+                        L7: CsJ-S2sS2sH
                         L7: CsJ-CSS
-                            L8: CsJ-CsSsSs
-                            L8: CsJ-CtSsSs
-                            L8: CsJ-CbSsSs
-                            L8: CsJ-CdSsSs
-                            L8: CsJ-C=SSsSs
-                        L7: CsJ-SsSsSs
+                            L8: CsJ-CsS2sS2s
+                            L8: CsJ-CtS2sS2s
+                            L8: CsJ-CbS2sS2s
+                            L8: CsJ-CdS2sS2s
+                            L8: CsJ-C=SS2sS2s
+                        L7: CsJ-S2sS2sS2s
                     L6: CCsJOS
                         L7: CCsJOHSH
                 L5: CsJN
@@ -8415,13 +8415,13 @@ L1: Radical
                     L6: CCCJ=C=O
                         L7: CC(C)CJ=C=O
                         L7: C=C(C)CJ=C=O
-                L5: CdsJ-Ss
+                L5: CdsJ-S2s
                 L5: C=CJO
             L4: CtJ
                 L5: Acetyl
             L4: CbJ
             L4: C=SJ
-                L5: C=SJ-Ss
+                L5: C=SJ-S2s
                 L5: C=SJ-H
                 L5: C=SJ-C
                     L6: C=SJ-Cd
@@ -8464,10 +8464,10 @@ L1: Radical
                 L5: SJ-Cd
                 L5: SJ-C=S
                 L5: SJ-CO
-            L4: SJ-Ss
-                L5: SJ-Ss-H
-                L5: SJ-Ss-Cs
-                L5: SJ-Ss-Ss
+            L4: SJ-S2s
+                L5: SJ-S2s-H
+                L5: SJ-S2s-Cs
+                L5: SJ-S2s-S2s
     L2: RJ2_triplet
         L3: CJ2_triplet
             L4: CsJ2_triplet
@@ -8480,7 +8480,7 @@ L1: Radical
                 L5: CsJ2_S_triplet
             L4: CdJ2_triplet
                 L5: CCdJ2_triplet
-            L4: CdJ2-Sd_triplet
+            L4: CdJ2-S2d_triplet
         L3: Oa_triplet
         L3: SiJ2_triplet
         L3: SJ2_triplet
@@ -8497,7 +8497,7 @@ L1: Radical
             L4: CdJ2_singlet
                 L5: CCdJ2_singlet
             L4: CO
-            L4: CdJ2-Sd_singlet
+            L4: CdJ2-S2d_singlet
         L3: Oa_singlet
         L3: SiJ2_singlet
         L3: SJ2_singlet
@@ -8507,4 +8507,3 @@ L1: Radical
         L3: SiJ3
 """
 )
-

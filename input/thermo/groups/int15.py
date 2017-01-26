@@ -8,10 +8,10 @@ longDesc = u"""
 """
 entry(
     index = 0,
-    label = "CsOsSs",
+    label = "CsOsS2s",
     group = 
 """
-1 * [Cs,Os,Ss] u0 {2,S} {3,S}
+1 * [Cs,Os,S2s] u0 {2,S} {3,S}
 2   Cs         u0 {1,S} {4,S} {5,S} {6,S}
 3   Cs         u0 {1,S} {7,S} {8,S}
 4   Cs         u0 {2,S}
@@ -145,10 +145,10 @@ u"""
 
 entry(
     index = 5,
-    label = "Ss(Cs(CsCsCs)Cs(CsCsR))",
+    label = "S2s(Cs(CsCsCs)Cs(CsCsR))",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3   Cs u0 {1,S} {7,S} {8,S}
 4   Cs u0 {2,S}
@@ -172,10 +172,10 @@ u"""
 
 entry(
     index = 6,
-    label = "Ss(Cs(CsCsCs)Cs(CsCsCs))",
+    label = "S2s(Cs(CsCsCs)Cs(CsCsCs))",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3   Cs u0 {1,S} {7,S} {8,S} {9,S}
 4   Cs u0 {2,S}
@@ -200,13 +200,12 @@ u"""
 
 tree(
 """
-L1: CsOsSs
+L1: CsOsS2s
     L2: Cs(Cs(CsCsCs)Cs(CsCsR)RR)
         L3: Cs(Cs(CsCsCs)Cs(CsCsCs)RR)
     L2: Os(Cs(CsCsCs)Cs(CsCsR))
         L3: Os(Cs(CsCsCs)Cs(CsCsCs))
-    L2: Ss(Cs(CsCsCs)Cs(CsCsR))
-        L3: Ss(Cs(CsCsCs)Cs(CsCsCs))
+    L2: S2s(Cs(CsCsCs)Cs(CsCsR))
+        L3: S2s(Cs(CsCsCs)Cs(CsCsCs))
 """
 )
-

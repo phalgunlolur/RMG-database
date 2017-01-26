@@ -650,10 +650,10 @@ u"""
 #temporarily removed until multivalent Sulfur is implemented
 # entry(
 #     index = 26,
-#     label = "SdOdOdN",
+#     label = "S2dOdOdN",
 #     group = 
 # """
-# 1 * Sd u0 {2,D} {3,D} {4,S}
+# 1 * S2d u0 {2,D} {3,D} {4,S}
 # 2   Od u0 {1,D}
 # 3   Od u0 {1,D}
 # 4   N  u0 {1,S}

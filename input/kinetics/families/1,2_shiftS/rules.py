@@ -8,7 +8,7 @@ longDesc = u"""
 """
 entry(
     index = 1,
-    label = "XSYJ;YJ-Ss;X-Ss",
+    label = "XSYJ;YJ-S2s;X-S2s",
     kinetics = ArrheniusEP(
         A = (1e+08, 's^-1'),
         n = 2,
@@ -20,4 +20,3 @@ entry(
     rank = 1,
     shortDesc = u"""Aaron Vandeputte CBS-QB3 HO""",
 )
-

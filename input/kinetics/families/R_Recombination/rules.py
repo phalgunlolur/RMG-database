@@ -1711,7 +1711,7 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 480,
-    label = "SsJ-Ss;C_methyl",
+    label = "S2sJ-S2s;C_methyl",
     kinetics = ArrheniusEP(
         A = (3.94e+09, 'cm^3/(mol*s)'),
         n = 1.25,
@@ -1729,7 +1729,7 @@ u"""
 
 entry(
     index = 481,
-    label = "SsJ-Cs;SsJ-Cs",
+    label = "S2sJ-Cs;S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (1.06e+11, 'cm^3/(mol*s)'),
         n = 1.21,
@@ -1747,7 +1747,7 @@ u"""
 
 entry(
     index = 482,
-    label = "CsJ-SsHH;H_rad",
+    label = "CsJ-S2sHH;H_rad",
     kinetics = ArrheniusEP(
         A = (5e+11, 'cm^3/(mol*s)'),
         n = 0.65,
@@ -1765,7 +1765,7 @@ u"""
 
 entry(
     index = 483,
-    label = "SsJ-H;H_rad",
+    label = "S2sJ-H;H_rad",
     kinetics = ArrheniusEP(
         A = (7.07e+12, 'cm^3/(mol*s)'),
         n = 0.56,
@@ -1783,7 +1783,7 @@ u"""
 
 entry(
     index = 484,
-    label = "SsJ-Ss;C_rad/Cs3",
+    label = "S2sJ-S2s;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (3.94e+09, 'cm^3/(mol*s)'),
         n = 1.25,
@@ -1801,7 +1801,7 @@ u"""
 
 entry(
     index = 485,
-    label = "SsJ-Cs;C_rad/H2/Cs",
+    label = "S2sJ-Cs;C_rad/H2/Cs",
     kinetics = ArrheniusEP(
         A = (8.94e+07, 'cm^3/(mol*s)'),
         n = 1.54,
@@ -1816,7 +1816,7 @@ entry(
 
 entry(
     index = 486,
-    label = "SsJ-Cs;C_methyl",
+    label = "S2sJ-Cs;C_methyl",
     kinetics = ArrheniusEP(
         A = (8.94e+07, 'cm^3/(mol*s)'),
         n = 1.54,
@@ -1831,7 +1831,7 @@ entry(
 
 entry(
     index = 487,
-    label = "SsJ-Cs;C_rad/Cs3",
+    label = "S2sJ-Cs;C_rad/Cs3",
     kinetics = ArrheniusEP(
         A = (8.94e+07, 'cm^3/(mol*s)'),
         n = 1.54,
@@ -2143,7 +2143,7 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 
 entry(
     index = 491,
-    label = "SsJ-Ss;C_methyl",
+    label = "S2sJ-S2s;C_methyl",
     kinetics = ArrheniusEP(
         A = (6.44e+09, 'cm^3/(mol*s)'),
         n = 1.19,
@@ -2423,7 +2423,7 @@ entry(
 
 entry(
     index = 3000,
-    label = "H_rad;SsJ-H",
+    label = "H_rad;S2sJ-H",
     kinetics = ArrheniusEP(
         A = (5.77e+15, 'cm^3/(mol*s)'),
         n = 0,

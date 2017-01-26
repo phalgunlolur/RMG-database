@@ -743,7 +743,7 @@ entry(
 
 entry(
     index = 49,
-    label = "S-Ss(H)Cs(HHH);HJ",
+    label = "S-S2s(H)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
         A = (9.44e+07, 'cm^3/(mol*s)'),
         n = 1.64,
@@ -758,7 +758,7 @@ entry(
 
 entry(
     index = 50,
-    label = "S-Ss(Cs)Cs(HHH);HJ",
+    label = "S-S2s(Cs)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
         A = (7.47e+07, 'cm^3/(mol*s)'),
         n = 1.66,
@@ -773,7 +773,7 @@ entry(
 
 entry(
     index = 51,
-    label = "S-HSs(H);HJ",
+    label = "S-HS2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (5.43e+08, 'cm^3/(mol*s)'),
         n = 1.56,
@@ -788,7 +788,7 @@ entry(
 
 entry(
     index = 52,
-    label = "S-Cs(HHH)Ss(H);HJ",
+    label = "S-Cs(HHH)S2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (4.07e+08, 'cm^3/(mol*s)'),
         n = 1.6,
@@ -803,7 +803,7 @@ entry(
 
 entry(
     index = 53,
-    label = "S-HSs(Cs);HJ",
+    label = "S-HS2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (1.03e+09, 'cm^3/(mol*s)'),
         n = 1.54,
@@ -818,7 +818,7 @@ entry(
 
 entry(
     index = 54,
-    label = "S-Cs(HHH)Ss(Cs);HJ",
+    label = "S-Cs(HHH)S2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (5.31e+08, 'cm^3/(mol*s)'),
         n = 1.6,
@@ -833,7 +833,7 @@ entry(
 
 entry(
     index = 55,
-    label = "S-HSs(H);CsJ-HHH",
+    label = "S-HS2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (293000, 'cm^3/(mol*s)'),
         n = 1.72,
@@ -848,7 +848,7 @@ entry(
 
 entry(
     index = 56,
-    label = "S-HSs(Cs);CsJ-HHH",
+    label = "S-HS2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (3570, 'cm^3/(mol*s)'),
         n = 2.63,
@@ -863,7 +863,7 @@ entry(
 
 entry(
     index = 57,
-    label = "S-Cs(HHH)Ss(H);CsJ-HHH",
+    label = "S-Cs(HHH)S2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (2020, 'cm^3/(mol*s)'),
         n = 2.72,
@@ -878,7 +878,7 @@ entry(
 
 entry(
     index = 58,
-    label = "S-Cs(HHH)Ss(Cs);CsJ-HHH",
+    label = "S-Cs(HHH)S2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (5130, 'cm^3/(mol*s)'),
         n = 2.66,
@@ -893,7 +893,7 @@ entry(
 
 entry(
     index = 59,
-    label = "S-Ss(H)Ss(H);HJ",
+    label = "S-S2s(H)S2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (3.47e+08, 'cm^3/(mol*s)'),
         n = 1.64,
@@ -908,7 +908,7 @@ entry(
 
 entry(
     index = 60,
-    label = "S-HSs(Ss);HJ",
+    label = "S-HS2s(S2s);HJ",
     kinetics = ArrheniusEP(
         A = (2.34e+09, 'cm^3/(mol*s)'),
         n = 1.56,
@@ -923,7 +923,7 @@ entry(
 
 entry(
     index = 61,
-    label = "S-Ss(Cs)Ss(H);HJ",
+    label = "S-S2s(Cs)S2s(H);HJ",
     kinetics = ArrheniusEP(
         A = (6.14e+08, 'cm^3/(mol*s)'),
         n = 1.63,
@@ -938,7 +938,7 @@ entry(
 
 entry(
     index = 62,
-    label = "S-Cs(HHH)Ss(Ss);HJ",
+    label = "S-Cs(HHH)S2s(S2s);HJ",
     kinetics = ArrheniusEP(
         A = (5.07e+08, 'cm^3/(mol*s)'),
         n = 1.58,
@@ -953,7 +953,7 @@ entry(
 
 entry(
     index = 63,
-    label = "S-Ss(Ss)Cs(HHH);HJ",
+    label = "S-S2s(S2s)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
         A = (8.23e+07, 'cm^3/(mol*s)'),
         n = 1.64,
@@ -968,7 +968,7 @@ entry(
 
 entry(
     index = 64,
-    label = "S-Ss(H)Ss(Cs);HJ",
+    label = "S-S2s(H)S2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (1.8e+08, 'cm^3/(mol*s)'),
         n = 1.66,
@@ -983,7 +983,7 @@ entry(
 
 entry(
     index = 65,
-    label = "S-HSs(Ss);HJ",
+    label = "S-HS2s(S2s);HJ",
     kinetics = ArrheniusEP(
         A = (2.9e+09, 'cm^3/(mol*s)'),
         n = 1.58,
@@ -998,7 +998,7 @@ entry(
 
 entry(
     index = 66,
-    label = "S-Ss(Ss)Cs(HHH);HJ",
+    label = "S-S2s(S2s)Cs(HHH);HJ",
     kinetics = ArrheniusEP(
         A = (6.95e+07, 'cm^3/(mol*s)'),
         n = 1.64,
@@ -1013,7 +1013,7 @@ entry(
 
 entry(
     index = 67,
-    label = "S-Ss(Cs)Ss(Cs);HJ",
+    label = "S-S2s(Cs)S2s(Cs);HJ",
     kinetics = ArrheniusEP(
         A = (3.96e+08, 'cm^3/(mol*s)'),
         n = 1.66,
@@ -1028,7 +1028,7 @@ entry(
 
 entry(
     index = 68,
-    label = "S-Cs(HHH)Ss(Ss);HJ",
+    label = "S-Cs(HHH)S2s(S2s);HJ",
     kinetics = ArrheniusEP(
         A = (7.39e+08, 'cm^3/(mol*s)'),
         n = 1.61,
@@ -1043,7 +1043,7 @@ entry(
 
 entry(
     index = 69,
-    label = "S-Ss(H)Ss(H);CsJ-HHH",
+    label = "S-S2s(H)S2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (2410, 'cm^3/(mol*s)'),
         n = 2.7,
@@ -1058,7 +1058,7 @@ entry(
 
 entry(
     index = 70,
-    label = "S-HSs(Ss);CsJ-HHH",
+    label = "S-HS2s(S2s);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (10700, 'cm^3/(mol*s)'),
         n = 2.68,
@@ -1073,7 +1073,7 @@ entry(
 
 entry(
     index = 71,
-    label = "S-Ss(H)Ss(Cs);CsJ-HHH",
+    label = "S-S2s(H)S2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (3560, 'cm^3/(mol*s)'),
         n = 2.61,
@@ -1088,7 +1088,7 @@ entry(
 
 entry(
     index = 72,
-    label = "S-Cs(HHH)Ss(Ss);CsJ-HHH",
+    label = "S-Cs(HHH)S2s(S2s);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (3850, 'cm^3/(mol*s)'),
         n = 2.69,
@@ -1103,7 +1103,7 @@ entry(
 
 entry(
     index = 73,
-    label = "S-Ss(Cs)Ss(H);CsJ-HHH",
+    label = "S-S2s(Cs)S2s(H);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (2490, 'cm^3/(mol*s)'),
         n = 2.69,
@@ -1118,7 +1118,7 @@ entry(
 
 entry(
     index = 74,
-    label = "S-Cs(HHH)Ss(Ss);CsJ-HHH",
+    label = "S-Cs(HHH)S2s(S2s);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (6060, 'cm^3/(mol*s)'),
         n = 2.68,
@@ -1133,7 +1133,7 @@ entry(
 
 entry(
     index = 75,
-    label = "S-Ss(Cs)Ss(Cs);CsJ-HHH",
+    label = "S-S2s(Cs)S2s(Cs);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (3710, 'cm^3/(mol*s)'),
         n = 2.65,
@@ -1148,7 +1148,7 @@ entry(
 
 entry(
     index = 76,
-    label = "S-Cs(HHH)Ss(Ss);CsJ-HHH",
+    label = "S-Cs(HHH)S2s(S2s);CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (5430, 'cm^3/(mol*s)'),
         n = 2.68,
@@ -1883,7 +1883,7 @@ entry(
 
 entry(
     index = 125,
-    label = "S-Ss(H)H;CsJ-HHH",
+    label = "S-S2s(H)H;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (44.4, 'cm^3/(mol*s)'),
         n = 3.04,
@@ -1898,7 +1898,7 @@ entry(
 
 entry(
     index = 126,
-    label = "S-Ss(Cs)H;CsJ-HHH",
+    label = "S-S2s(Cs)H;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (11.3, 'cm^3/(mol*s)'),
         n = 3.03,
@@ -1913,7 +1913,7 @@ entry(
 
 entry(
     index = 127,
-    label = "S-HH;SsJ-H",
+    label = "S-HH;S2sJ-H",
     kinetics = ArrheniusEP(
         A = (804, 'cm^3/(mol*s)'),
         n = 3.08,
@@ -1928,7 +1928,7 @@ entry(
 
 entry(
     index = 128,
-    label = "S-Cs(HHH)H;SsJ-H",
+    label = "S-Cs(HHH)H;S2sJ-H",
     kinetics = ArrheniusEP(
         A = (75.2, 'cm^3/(mol*s)'),
         n = 3.3,
@@ -1943,7 +1943,7 @@ entry(
 
 entry(
     index = 129,
-    label = "S-HH;SsJ-Cs",
+    label = "S-HH;S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (1.25, 'cm^3/(mol*s)'),
         n = 4.01,
@@ -1958,7 +1958,7 @@ entry(
 
 entry(
     index = 130,
-    label = "S-Cs(HHH)H;SsJ-Cs",
+    label = "S-Cs(HHH)H;S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (0.0263, 'cm^3/(mol*s)'),
         n = 4.22,
@@ -1973,7 +1973,7 @@ entry(
 
 entry(
     index = 131,
-    label = "S-HCs(HHH);SsJ-H",
+    label = "S-HCs(HHH);S2sJ-H",
     kinetics = ArrheniusEP(
         A = (999, 'cm^3/(mol*s)'),
         n = 3.08,
@@ -1988,7 +1988,7 @@ entry(
 
 entry(
     index = 131,
-    label = "S-HCs(HHH);SsJ-H",
+    label = "S-HCs(HHH);S2sJ-H",
     kinetics = ArrheniusEP(
         A = (1180, 'cm^3/(mol*s)'),
         n = 3,
@@ -2003,7 +2003,7 @@ entry(
 
 entry(
     index = 132,
-    label = "S-HCs(HHH);SsJ-Cs",
+    label = "S-HCs(HHH);S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (1.28, 'cm^3/(mol*s)'),
         n = 3.85,
@@ -2018,7 +2018,7 @@ entry(
 
 entry(
     index = 133,
-    label = "S-Cs(HHH)Cs(HHH);SsJ-H",
+    label = "S-Cs(HHH)Cs(HHH);S2sJ-H",
     kinetics = ArrheniusEP(
         A = (1770, 'cm^3/(mol*s)'),
         n = 3.03,
@@ -2033,7 +2033,7 @@ entry(
 
 entry(
     index = 134,
-    label = "S-Cs(HHH)Cs(HHH);SsJ-Cs",
+    label = "S-Cs(HHH)Cs(HHH);S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (1.17, 'cm^3/(mol*s)'),
         n = 3.89,
@@ -2048,7 +2048,7 @@ entry(
 
 entry(
     index = 135,
-    label = "S-Ss(H)H;SsJ-H",
+    label = "S-S2s(H)H;S2sJ-H",
     kinetics = ArrheniusEP(
         A = (26.7, 'cm^3/(mol*s)'),
         n = 3.36,
@@ -2063,7 +2063,7 @@ entry(
 
 entry(
     index = 136,
-    label = "S-HH;SsJ-Ss",
+    label = "S-HH;S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (0.859, 'cm^3/(mol*s)'),
         n = 3.89,
@@ -2078,7 +2078,7 @@ entry(
 
 entry(
     index = 137,
-    label = "S-Ss(Cs)H;SsJ-H",
+    label = "S-S2s(Cs)H;S2sJ-H",
     kinetics = ArrheniusEP(
         A = (83.6, 'cm^3/(mol*s)'),
         n = 3.33,
@@ -2093,7 +2093,7 @@ entry(
 
 entry(
     index = 138,
-    label = "S-Cs(HHH)H;SsJ-Ss",
+    label = "S-Cs(HHH)H;S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (0.0413, 'cm^3/(mol*s)'),
         n = 4.06,
@@ -2108,7 +2108,7 @@ entry(
 
 entry(
     index = 139,
-    label = "S-Ss(Ss)H;CsJ-HHH",
+    label = "S-S2s(S2s)H;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (68.5, 'cm^3/(mol*s)'),
         n = 3.02,
@@ -2123,7 +2123,7 @@ entry(
 
 entry(
     index = 140,
-    label = "S-Ss(H)H;SsJ-Cs",
+    label = "S-S2s(H)H;S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (0.0202, 'cm^3/(mol*s)'),
         n = 4.3,
@@ -2138,7 +2138,7 @@ entry(
 
 entry(
     index = 141,
-    label = "S-HH;SsJ-Ss",
+    label = "S-HH;S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (1.67, 'cm^3/(mol*s)'),
         n = 3.91,
@@ -2153,7 +2153,7 @@ entry(
 
 entry(
     index = 142,
-    label = "S-Ss(Ss)H;CsJ-HHH",
+    label = "S-S2s(S2s)H;CsJ-HHH",
     kinetics = ArrheniusEP(
         A = (12.4, 'cm^3/(mol*s)'),
         n = 3.01,
@@ -2168,7 +2168,7 @@ entry(
 
 entry(
     index = 143,
-    label = "S-Ss(Cs)H;SsJ-Cs",
+    label = "S-S2s(Cs)H;S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (0.0168, 'cm^3/(mol*s)'),
         n = 4.25,
@@ -2183,7 +2183,7 @@ entry(
 
 entry(
     index = 144,
-    label = "S-Cs(HHH)H;SsJ-Ss",
+    label = "S-Cs(HHH)H;S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (0.0198, 'cm^3/(mol*s)'),
         n = 4.09,
@@ -2198,7 +2198,7 @@ entry(
 
 entry(
     index = 145,
-    label = "S-Ss(H)Cs(HHH);SsJ-H",
+    label = "S-S2s(H)Cs(HHH);S2sJ-H",
     kinetics = ArrheniusEP(
         A = (467, 'cm^3/(mol*s)'),
         n = 3,
@@ -2213,7 +2213,7 @@ entry(
 
 entry(
     index = 146,
-    label = "S-HCs(HHH);SsJ-Ss",
+    label = "S-HCs(HHH);S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (1.08, 'cm^3/(mol*s)'),
         n = 3.79,
@@ -2228,7 +2228,7 @@ entry(
 
 entry(
     index = 147,
-    label = "S-Ss(H)Cs(HHH);SsJ-Cs",
+    label = "S-S2s(H)Cs(HHH);S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (0.923, 'cm^3/(mol*s)'),
         n = 3.83,
@@ -2243,7 +2243,7 @@ entry(
 
 entry(
     index = 148,
-    label = "S-Cs(HHH)Cs(HHH);SsJ-Ss",
+    label = "S-Cs(HHH)Cs(HHH);S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (0.607, 'cm^3/(mol*s)'),
         n = 3.8,
@@ -2258,7 +2258,7 @@ entry(
 
 entry(
     index = 149,
-    label = "S-Ss(Cs)Cs(HHH);SsJ-H",
+    label = "S-S2s(Cs)Cs(HHH);S2sJ-H",
     kinetics = ArrheniusEP(
         A = (2370, 'cm^3/(mol*s)'),
         n = 3,
@@ -2273,7 +2273,7 @@ entry(
 
 entry(
     index = 150,
-    label = "S-Cs(HHH)Cs(HHH);SsJ-Ss",
+    label = "S-Cs(HHH)Cs(HHH);S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (2.05, 'cm^3/(mol*s)'),
         n = 3.8,
@@ -2288,7 +2288,7 @@ entry(
 
 entry(
     index = 151,
-    label = "S-Ss(Cs)Cs(HHH);SsJ-Cs",
+    label = "S-S2s(Cs)Cs(HHH);S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (1.07, 'cm^3/(mol*s)'),
         n = 3.86,
@@ -2303,7 +2303,7 @@ entry(
 
 entry(
     index = 152,
-    label = "S-Cs(HHH)Cs(HHH);SsJ-Ss",
+    label = "S-Cs(HHH)Cs(HHH);S2sJ-S2s",
     kinetics = ArrheniusEP(
         A = (0.615, 'cm^3/(mol*s)'),
         n = 3.78,
@@ -2408,7 +2408,7 @@ entry(
 
 entry(
     index = 159,
-    label = "S-HCs(CsOsH);SsJ-H",
+    label = "S-HCs(CsOsH);S2sJ-H",
     kinetics = ArrheniusEP(
         A = (1180, 'cm^3/(mol*s)'),
         n = 3,
@@ -2423,7 +2423,7 @@ entry(
 
 entry(
     index = 160,
-    label = "S-HSs(H);CsJ-CdHH",
+    label = "S-HS2s(H);CsJ-CdHH",
     kinetics = ArrheniusEP(
         A = (930, 'cm^3/(mol*s)'),
         n = 2.61,
@@ -2438,7 +2438,7 @@ entry(
 
 entry(
     index = 161,
-    label = "S-HCs(CsHH);SsJ-Cs",
+    label = "S-HCs(CsHH);S2sJ-Cs",
     kinetics = ArrheniusEP(
         A = (72.5, 'cm^3/(mol*s)'),
         n = 3.21,
