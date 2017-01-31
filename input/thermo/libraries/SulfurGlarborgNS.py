@@ -63,7 +63,7 @@ entry(
     label = "NSO",
     molecule = 
 """
-1 N u0 p1 c0 {2,D}
+1 N u1 p1 c0 {2,D}
 2 S u0 p1 c0 {1,D} {3,D}
 3 O u0 p2 c0 {2,D}
 """,
