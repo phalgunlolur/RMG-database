@@ -349,3 +349,36 @@ u"""
 
 """,
 )
+
+entry(
+    label = "RNO2",
+    group = 
+"""
+1 N u0 p0 c+1 {2,D} {3,S} {4,S}
+2 O u0 p2 c0 {1,D}
+3 O u0 p3 c-1 {1,S}
+4 R!H ux px cx {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+xs1009 crashed on [N+](=O)(N=[N])[O-]
+""",
+)
+
+entry(
+    label = "RNHO2",
+    group = 
+"""
+1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
+2 H u0 p0 c0 {1,S}
+3 O u0 p3 c-1 {1,S}
+4 O u1 p2 c0 {1,S}
+5 R!H ux px cx {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+xs1010 crashed on [NH+](N=[N])([O-])[O]
+""",
+)
