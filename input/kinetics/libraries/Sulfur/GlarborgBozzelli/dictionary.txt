@@ -26,10 +26,10 @@ SO2
 3 O u0 p2 c0 {1,D}
 
 SO3
-1 O u0 p2 c0 {2,D}
-2 S u0 p0 c0 {1,D} {3,D} {4,D}
-3 O u0 p3 c0 {2,D}
-4 O u0 p3 c0 {2,D}
+1 S u0 p0 c0 {2,D} {3,D} {4,D}
+2 O u0 p2 c0 {1,D}
+3 O u0 p2 c0 {1,D}
+4 O u0 p2 c0 {1,D}
 
 HSO
 multiplicity 2
