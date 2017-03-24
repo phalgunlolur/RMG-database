@@ -194,11 +194,11 @@ u"""
 
 entry(
     index = 1197,
-    label = "Cb-Ss",
+    label = "Cb-S2s",
     group = 
 """
 1 * Cb u0 {2,S}
-2   Ss u0 {1,S}
+2   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -632,7 +632,7 @@ entry(
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -1687,7 +1687,7 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -1735,7 +1735,7 @@ entry(
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -1759,7 +1759,7 @@ entry(
 1 * CO u0 {2,D} {3,S} {4,S}
 2   Od u0 {1,D}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -3374,7 +3374,7 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = None,
@@ -3392,7 +3392,7 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -3415,7 +3415,7 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
 4   H   u0 {1,S}
 """,
     thermo = None,
@@ -3433,7 +3433,7 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
 4   H   u0 {1,S}
 5   Sd  u0 {2,D}
 """,
@@ -3452,7 +3452,7 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
 4   H   u0 {1,S}
 5   C   u0 {2,D}
 """,
@@ -3575,8 +3575,8 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -3593,8 +3593,8 @@ entry(
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -3611,8 +3611,8 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
-3   Ss  u0 {1,S}
-4   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -3629,8 +3629,8 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Ss  u0 {1,S}
-4   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 """,
     thermo = None,
@@ -3648,8 +3648,8 @@ entry(
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
-3   Ss  u0 {1,S}
-4   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = None,
@@ -5316,7 +5316,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
 3   C  u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5334,7 +5334,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5357,7 +5357,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5369,13 +5369,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-Cds(Cds-Cd)Ss",
+    label = "Cds-Cds(Cds-Cd)S2s",
     group = 
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
 3   Cd u0 {1,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   C  u0 {2,D}
 """,
     thermo = None,
@@ -5388,13 +5388,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-Cds(Cds-Cds)Ss",
+    label = "Cds-Cds(Cds-Cds)S2s",
     group = 
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
 3   Cd u0 {1,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   Cd u0 {2,D}
 """,
     thermo = None,
@@ -5407,13 +5407,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-Cds(Cds-Cdd)Ss",
+    label = "Cds-Cds(Cds-Cdd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   Cd  u0 {1,S} {5,D}
 3   Cd  u0 {1,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -5426,14 +5426,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-Cds(Cds-Cdd-Sd)Ss",
+    label = "Cds-Cds(Cds-Cdd-Sd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   Cd  u0 {1,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -5446,14 +5446,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-Cds(Cds-Cdd-Cd)Ss",
+    label = "Cds-Cds(Cds-Cdd-Cd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   Cd  u0 {1,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   C   u0 {3,D}
 """,
     thermo = None,
@@ -5472,7 +5472,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5490,7 +5490,7 @@ entry(
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5508,7 +5508,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cs  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5526,7 +5526,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cs  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 """,
     thermo = None,
@@ -5545,7 +5545,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cs  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = None,
@@ -5564,7 +5564,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cd  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5576,13 +5576,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Sd)(Cds-Cd)Ss",
+    label = "Cds-(Cdd-Sd)(Cds-Cd)S2s",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 6   C   u0 {3,D}
 """,
@@ -5596,13 +5596,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Sd)(Cds-Cds)Ss",
+    label = "Cds-(Cdd-Sd)(Cds-Cds)S2s",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Cd  u0 {3,D}
 """,
@@ -5616,13 +5616,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Sd)(Cds-Cdd)Ss",
+    label = "Cds-(Cdd-Sd)(Cds-Cdd)S2s",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Cdd u0 {3,D}
 """,
@@ -5636,14 +5636,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Sd)(Cds-Cdd-Sd)Ss",
+    label = "Cds-(Cdd-Sd)(Cds-Cdd-Sd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {3,D} {5,S}
 2   Cd  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Sd  u0 {3,D}
 7   Sd  u0 {4,D}
 """,
@@ -5657,14 +5657,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Sd)(Cds-Cdd-Cd)Ss",
+    label = "Cds-(Cdd-Sd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {3,D} {5,S}
 2   Cd  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Sd  u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -5678,13 +5678,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Cd)(Cds-Cd)Ss",
+    label = "Cds-(Cdd-Cd)(Cds-Cd)S2s",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 6   C   u0 {3,D}
 """,
@@ -5698,13 +5698,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Cd)(Cds-Cds)Ss",
+    label = "Cds-(Cdd-Cd)(Cds-Cds)S2s",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 6   Cd  u0 {3,D}
 """,
@@ -5718,13 +5718,13 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Cd)(Cds-Cdd)Ss",
+    label = "Cds-(Cdd-Cd)(Cds-Cdd)S2s",
     group = 
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 6   Cdd u0 {3,D}
 """,
@@ -5738,14 +5738,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Cd)(Cds-Cdd-Sd)Ss",
+    label = "Cds-(Cdd-Cd)(Cds-Cdd-Sd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {3,D} {5,S}
 2   Cd  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   C   u0 {3,D}
 7   Sd  u0 {4,D}
 """,
@@ -5759,14 +5759,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ss",
+    label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1 * Cd  u0 {2,S} {3,D} {5,S}
 2   Cd  u0 {1,S} {4,D}
 3   Cdd u0 {1,D} {6,D}
 4   Cdd u0 {2,D} {7,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   C   u0 {3,D}
 7   C   u0 {4,D}
 """,
@@ -5786,7 +5786,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Ct  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5804,7 +5804,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 """,
     thermo = None,
@@ -5823,7 +5823,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Ct  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = None,
@@ -5842,7 +5842,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
 3   Cb  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5860,7 +5860,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 """,
     thermo = None,
@@ -5879,7 +5879,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   Cb  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   C   u0 {2,D}
 """,
     thermo = None,
@@ -5898,7 +5898,7 @@ entry(
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
 3   CS  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Sd  u0 {2,D}
 6   Sd  u0 {3,D}
 """,
@@ -5918,7 +5918,7 @@ entry(
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   CS u0 {1,S} {5,D}
 3   Cd u0 {1,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   Sd u0 {2,D}
 """,
     thermo = None,
@@ -10177,8 +10177,8 @@ entry(
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -11329,7 +11329,7 @@ entry(
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -11353,7 +11353,7 @@ entry(
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
 3   C  u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = u'C=S-CsSs',
     shortDesc = u"""""",
@@ -11371,7 +11371,7 @@ entry(
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -11389,7 +11389,7 @@ entry(
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -11401,13 +11401,13 @@ u"""
 
 entry(
     index = -1,
-    label = "C=S-(Cds-Cd)Ss",
+    label = "C=S-(Cds-Cd)S2s",
     group = 
 """
 1 * CS          u0 {2,S} {3,D} {4,S}
 2   Cd          u0 {1,S} {5,D}
 3   Sd          u0 {1,D}
-4   Ss          u0 {1,S}
+4   S2s          u0 {1,S}
 5   [Cd,Cdd,CO] u0 {2,D}
 """,
     thermo = None,
@@ -11420,13 +11420,13 @@ u"""
 
 entry(
     index = -1,
-    label = "C=S-(Cds-Cds)Ss",
+    label = "C=S-(Cds-Cds)S2s",
     group = 
 """
 1 * CS u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
 3   Sd u0 {1,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   Cd u0 {2,D}
 """,
     thermo = None,
@@ -11439,13 +11439,13 @@ u"""
 
 entry(
     index = -1,
-    label = "C=S-(Cds-Cdd)Ss",
+    label = "C=S-(Cds-Cdd)S2s",
     group = 
 """
 1 * CS  u0 {2,S} {3,D} {4,S}
 2   Cd  u0 {1,S} {5,D}
 3   Sd  u0 {1,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -11458,14 +11458,14 @@ u"""
 
 entry(
     index = -1,
-    label = "C=S-(Cds-Cdd-Cd)Ss",
+    label = "C=S-(Cds-Cdd-Cd)S2s",
     group = 
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   Sd  u0 {1,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   C   u0 {3,D}
 """,
     thermo = None,
@@ -11478,14 +11478,14 @@ u"""
 
 entry(
     index = -1,
-    label = "C=S-(Cds-Cdd-Sd)Ss",
+    label = "C=S-(Cds-Cdd-Sd)S2s",
     group = 
 """
 1 * CS  u0 {2,S} {4,D} {5,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {6,D}
 4   Sd  u0 {1,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -11504,7 +11504,7 @@ entry(
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -11522,7 +11522,7 @@ entry(
 1 * CS u0 {2,D} {3,S} {4,S}
 2   Sd u0 {1,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -11545,7 +11545,7 @@ entry(
 1 * CS u0 {2,S} {3,D} {4,S}
 2   CS u0 {1,S} {5,D}
 3   Sd u0 {1,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   Sd u0 {2,D}
 """,
     thermo = None,
@@ -12857,7 +12857,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Os u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -12882,7 +12882,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Os u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -12904,7 +12904,7 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Ss u0 {1,S}
+2   S2s u0 {1,S}
 3   H  u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
@@ -12928,8 +12928,8 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -12952,9 +12952,9 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -34119,7 +34119,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -34138,7 +34138,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -34162,7 +34162,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -34181,7 +34181,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -34200,7 +34200,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Os u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -34220,7 +34220,7 @@ entry(
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   Os u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -34239,7 +34239,7 @@ entry(
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
 4   Os u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -34263,7 +34263,7 @@ entry(
 2   C  u0 {1,S}
 3   Os u0 {1,S}
 4   Os u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = u'Cs-CsOsOsSs',
     shortDesc = u"""""",
@@ -34282,7 +34282,7 @@ entry(
 2   Cs u0 {1,S}
 3   Os u0 {1,S}
 4   Os u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -35505,7 +35505,7 @@ entry(
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 4   C  u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35524,7 +35524,7 @@ entry(
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -35548,7 +35548,7 @@ entry(
 2   Cd u0 {1,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35567,7 +35567,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -35587,7 +35587,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -35607,7 +35607,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cs  u0 {1,S}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -35628,7 +35628,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -35649,7 +35649,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cs  u0 {1,S}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -35666,7 +35666,7 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Ss u0 {1,S}
+2   S2s u0 {1,S}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
 5   Cs u0 {1,S}
@@ -35688,7 +35688,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35707,7 +35707,7 @@ entry(
 2   Cd u0 {1,S}
 3   Cd u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35726,7 +35726,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -35747,7 +35747,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 7   Cd u0 {3,D}
 """,
@@ -35768,7 +35768,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cd  u0 {3,D}
 """,
@@ -35790,7 +35790,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -35812,7 +35812,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -35833,7 +35833,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -35856,7 +35856,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cs  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   Sd  u0 {5,D}
 """,
@@ -35879,7 +35879,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cs  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -35902,7 +35902,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cs  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -35923,7 +35923,7 @@ entry(
 2   Ct u0 {1,S}
 3   Cd u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -35942,7 +35942,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -35962,7 +35962,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -35982,7 +35982,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -36003,7 +36003,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -36024,7 +36024,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -36044,7 +36044,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cd u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36063,7 +36063,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -36083,7 +36083,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -36103,7 +36103,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -36124,7 +36124,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -36145,7 +36145,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -36165,7 +36165,7 @@ entry(
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36184,7 +36184,7 @@ entry(
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36203,7 +36203,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36222,7 +36222,7 @@ entry(
 2   Cd u0 {1,S}
 3   Cd u0 {1,S}
 4   Cd u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36234,14 +36234,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ss",
+    label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)S2s",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Cd u0 {1,S} {8,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 8   C  u0 {4,D}
@@ -36256,14 +36256,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)S2s",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Cd u0 {1,S} {8,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 7   Cd u0 {3,D}
 8   Cd u0 {4,D}
@@ -36278,14 +36278,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cd  u0 {1,S} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cd  u0 {2,D}
 7   Cd  u0 {3,D}
 8   Cdd u0 {4,D}
@@ -36300,7 +36300,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -36308,7 +36308,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cd  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   Cd  u0 {4,D}
 9   Sd  u0 {5,D}
@@ -36323,7 +36323,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -36331,7 +36331,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cd  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   Cd  u0 {4,D}
 9   C   u0 {5,D}
@@ -36346,14 +36346,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cd  u0 {1,S} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cd  u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
@@ -36368,7 +36368,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Sd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
@@ -36377,7 +36377,7 @@ entry(
 4    Cd  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Ss  u0 {1,S}
+7    S2s  u0 {1,S}
 8    Cd  u0 {4,D}
 9    Sd  u0 {5,D}
 10   Sd  u0 {6,D}
@@ -36392,7 +36392,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
@@ -36401,7 +36401,7 @@ entry(
 4    Cd  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Ss  u0 {1,S}
+7    S2s  u0 {1,S}
 8    Cd  u0 {4,D}
 9    Sd  u0 {5,D}
 10   C   u0 {6,D}
@@ -36416,7 +36416,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
@@ -36425,7 +36425,7 @@ entry(
 4    Cd  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Ss  u0 {1,S}
+7    S2s  u0 {1,S}
 8    Cd  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
@@ -36440,14 +36440,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Ss",
+    label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cd  u0 {1,S} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 8   Cdd u0 {4,D}
@@ -36462,7 +36462,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss",
+    label = "Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
@@ -36472,7 +36472,7 @@ entry(
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Ss  u0 {1,S}
+8    S2s  u0 {1,S}
 9    Sd  u0 {5,D}
 10   Sd  u0 {6,D}
 11   Sd  u0 {7,D}
@@ -36487,7 +36487,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
@@ -36497,7 +36497,7 @@ entry(
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Ss  u0 {1,S}
+8    S2s  u0 {1,S}
 9    Sd  u0 {5,D}
 10   Sd  u0 {6,D}
 11   C   u0 {7,D}
@@ -36512,7 +36512,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
@@ -36522,7 +36522,7 @@ entry(
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Ss  u0 {1,S}
+8    S2s  u0 {1,S}
 9    Sd  u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -36537,7 +36537,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {8,S}
@@ -36547,7 +36547,7 @@ entry(
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
 7    Cdd u0 {4,D} {11,D}
-8    Ss  u0 {1,S}
+8    S2s  u0 {1,S}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
 11   C   u0 {7,D}
@@ -36569,7 +36569,7 @@ entry(
 2   Ct u0 {1,S}
 3   Cd u0 {1,S}
 4   Cd u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36588,7 +36588,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -36609,7 +36609,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 7   Cd u0 {3,D}
 """,
@@ -36630,7 +36630,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cd  u0 {3,D}
 """,
@@ -36652,7 +36652,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -36674,7 +36674,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -36695,7 +36695,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -36718,7 +36718,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   Sd  u0 {5,D}
 """,
@@ -36741,7 +36741,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -36764,7 +36764,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Ct  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -36785,7 +36785,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cd u0 {1,S}
 4   Cd u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -36804,7 +36804,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -36825,7 +36825,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 7   Cd u0 {3,D}
 """,
@@ -36846,7 +36846,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cd  u0 {3,D}
 """,
@@ -36868,7 +36868,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -36890,7 +36890,7 @@ entry(
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -36911,7 +36911,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -36934,7 +36934,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   Sd  u0 {5,D}
 """,
@@ -36957,7 +36957,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -36980,7 +36980,7 @@ entry(
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
 6   Cb  u0 {1,S}
-7   Ss  u0 {1,S}
+7   S2s  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -37001,7 +37001,7 @@ entry(
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   Cd u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37020,7 +37020,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -37040,7 +37040,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -37060,7 +37060,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -37081,7 +37081,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -37102,7 +37102,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -37122,7 +37122,7 @@ entry(
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   Cd u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37141,7 +37141,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -37161,7 +37161,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -37181,7 +37181,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -37202,7 +37202,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -37223,7 +37223,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -37243,7 +37243,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cd u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37262,7 +37262,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -37282,7 +37282,7 @@ entry(
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -37302,7 +37302,7 @@ entry(
 2   Cd  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -37323,7 +37323,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -37344,7 +37344,7 @@ entry(
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
 5   Cb  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -37364,7 +37364,7 @@ entry(
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37383,7 +37383,7 @@ entry(
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37402,7 +37402,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37421,7 +37421,7 @@ entry(
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -37440,7 +37440,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -37460,7 +37460,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   Cs u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -37473,14 +37473,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cd)(Cds-Cd)Ss",
+    label = "Cs-C=S(Cds-Cd)(Cds-Cd)S2s",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {8,D}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {3,D}
 7   C  u0 {4,D}
 8   Sd u0 {2,D}
@@ -37495,14 +37495,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)Ss",
+    label = "Cs-C=S(Cds-Cdd)(Cds-Cdd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cdd u0 {4,D}
 8   Sd  u0 {2,D}
@@ -37517,7 +37517,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
@@ -37526,7 +37526,7 @@ entry(
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Ss  u0 {1,S}
+7    S2s  u0 {1,S}
 8    Sd  u0 {4,D}
 9    C   u0 {5,D}
 10   C   u0 {6,D}
@@ -37541,7 +37541,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss",
+    label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
@@ -37550,7 +37550,7 @@ entry(
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Ss  u0 {1,S}
+7    S2s  u0 {1,S}
 8    Sd  u0 {4,D}
 9    Sd  u0 {5,D}
 10   C   u0 {6,D}
@@ -37565,7 +37565,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss",
+    label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)S2s",
     group = 
 """
 1  * Cs  u0 {2,S} {3,S} {4,S} {7,S}
@@ -37574,7 +37574,7 @@ entry(
 4    CS  u0 {1,S} {8,D}
 5    Cdd u0 {2,D} {9,D}
 6    Cdd u0 {3,D} {10,D}
-7    Ss  u0 {1,S}
+7    S2s  u0 {1,S}
 8    Sd  u0 {4,D}
 9    Sd  u0 {5,D}
 10   Sd  u0 {6,D}
@@ -37589,14 +37589,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd)(Cds-Cds)Ss",
+    label = "Cs-C=S(Cds-Cdd)(Cds-Cds)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {8,D}
 3   Cd  u0 {1,S} {6,D}
 4   Cd  u0 {1,S} {7,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Cd  u0 {4,D}
 8   Sd  u0 {2,D}
@@ -37611,7 +37611,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ss",
+    label = "Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -37619,7 +37619,7 @@ entry(
 3   CS  u0 {1,S} {8,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {4,D}
 8   Sd  u0 {3,D}
 9   C   u0 {5,D}
@@ -37634,7 +37634,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Ss",
+    label = "Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -37642,7 +37642,7 @@ entry(
 3   CS  u0 {1,S} {8,D}
 4   Cd  u0 {1,S} {7,D}
 5   Cdd u0 {2,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {4,D}
 8   Sd  u0 {3,D}
 9   Sd  u0 {5,D}
@@ -37657,14 +37657,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=S(Cds-Cds)(Cds-Cds)Ss",
+    label = "Cs-C=S(Cds-Cds)(Cds-Cds)S2s",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {8,D}
 3   Cd u0 {1,S} {6,D}
 4   Cd u0 {1,S} {7,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {3,D}
 7   Cd u0 {4,D}
 8   Sd u0 {2,D}
@@ -37686,7 +37686,7 @@ entry(
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -37707,7 +37707,7 @@ entry(
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -37728,7 +37728,7 @@ entry(
 2   CS  u0 {1,S} {7,D}
 3   Cd  u0 {1,S} {6,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Sd  u0 {2,D}
 """,
@@ -37750,7 +37750,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -37772,7 +37772,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Ct  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -37793,7 +37793,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -37813,7 +37813,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   CS u0 {1,S} {7,D}
 4   CS u0 {1,S} {8,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 7   Sd u0 {3,D}
 8   Sd u0 {4,D}
@@ -37828,14 +37828,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=SC=S(Cds-Cd)Ss",
+    label = "Cs-C=SC=S(Cds-Cd)S2s",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {7,D}
 3   CS u0 {1,S} {8,D}
 4   Cd u0 {1,S} {6,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {4,D}
 7   Sd u0 {2,D}
 8   Sd u0 {3,D}
@@ -37850,14 +37850,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=SC=S(Cds-Cds)Ss",
+    label = "Cs-C=SC=S(Cds-Cds)S2s",
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {7,D}
 3   CS u0 {1,S} {8,D}
 4   Cd u0 {1,S} {6,D}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {4,D}
 7   Sd u0 {2,D}
 8   Sd u0 {3,D}
@@ -37872,14 +37872,14 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=SC=S(Cds-Cdd)Ss",
+    label = "Cs-C=SC=S(Cds-Cdd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   CS  u0 {1,S} {8,D}
 4   Cd  u0 {1,S} {6,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {4,D}
 7   Sd  u0 {2,D}
 8   Sd  u0 {3,D}
@@ -37894,7 +37894,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=SC=S(Cds-Cdd-Sd)Ss",
+    label = "Cs-C=SC=S(Cds-Cdd-Sd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -37902,7 +37902,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
 9   Sd  u0 {5,D}
@@ -37917,7 +37917,7 @@ u"""
 
 entry(
     index = -1,
-    label = "Cs-C=SC=S(Cds-Cdd-Cd)Ss",
+    label = "Cs-C=SC=S(Cds-Cdd-Cd)S2s",
     group = 
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {6,S}
@@ -37925,7 +37925,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   CS  u0 {1,S} {8,D}
 5   Cdd u0 {2,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
 9   C   u0 {5,D}
@@ -37947,7 +37947,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -37967,7 +37967,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   CS u0 {1,S} {7,D}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 7   Sd u0 {3,D}
 """,
@@ -37988,7 +37988,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   CS u0 {1,S} {7,D}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 7   Sd u0 {3,D}
 """,
@@ -38009,7 +38009,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   Ct u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -38029,7 +38029,7 @@ entry(
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -38050,7 +38050,7 @@ entry(
 2   CS  u0 {1,S} {7,D}
 3   Cd  u0 {1,S} {6,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Sd  u0 {2,D}
 """,
@@ -38072,7 +38072,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -38094,7 +38094,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cb  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -38115,7 +38115,7 @@ entry(
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
 4   Cb u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -38136,7 +38136,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   Cb u0 {1,S}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -38156,7 +38156,7 @@ entry(
 2   CS u0 {1,S} {6,D}
 3   CS u0 {1,S} {7,D}
 4   Ct u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 7   Sd u0 {3,D}
 """,
@@ -38177,7 +38177,7 @@ entry(
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -38198,7 +38198,7 @@ entry(
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
 4   Cs u0 {1,S}
-5   Ss u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -38219,7 +38219,7 @@ entry(
 2   CS  u0 {1,S} {7,D}
 3   Cd  u0 {1,S} {6,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Sd  u0 {2,D}
 """,
@@ -38241,7 +38241,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -38263,7 +38263,7 @@ entry(
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cs  u0 {1,S}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -38283,8 +38283,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38302,8 +38302,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -38326,8 +38326,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38345,8 +38345,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -38365,8 +38365,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -38385,8 +38385,8 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cs  u0 {1,S}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -38406,8 +38406,8 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -38427,8 +38427,8 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -38447,8 +38447,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38466,8 +38466,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
 """,
@@ -38487,8 +38487,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 7   Cd u0 {3,D}
 """,
@@ -38508,8 +38508,8 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cd  u0 {3,D}
 """,
@@ -38530,8 +38530,8 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -38552,8 +38552,8 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Cd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -38573,8 +38573,8 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
 """,
@@ -38596,8 +38596,8 @@ entry(
 3   Cd  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Ss  u0 {1,S}
-7   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   Sd  u0 {5,D}
 """,
@@ -38619,8 +38619,8 @@ entry(
 3   Cd  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Ss  u0 {1,S}
-7   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
+7   S2s  u0 {1,S}
 8   Sd  u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -38642,8 +38642,8 @@ entry(
 3   Cd  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Ss  u0 {1,S}
-7   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
+7   S2s  u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
 """,
@@ -38663,8 +38663,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38682,8 +38682,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38701,8 +38701,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -38721,8 +38721,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -38741,8 +38741,8 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -38762,8 +38762,8 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -38783,8 +38783,8 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -38803,8 +38803,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38822,8 +38822,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38841,8 +38841,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38860,8 +38860,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -38880,8 +38880,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -38900,8 +38900,8 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -38921,8 +38921,8 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -38942,8 +38942,8 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -38962,8 +38962,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -38981,8 +38981,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39000,8 +39000,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -39020,8 +39020,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -39041,8 +39041,8 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {3,D}
 7   Sd  u0 {2,D}
 """,
@@ -39063,8 +39063,8 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   C   u0 {4,D}
 """,
@@ -39085,8 +39085,8 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
 """,
@@ -39106,8 +39106,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {3,D}
 7   Sd u0 {2,D}
 """,
@@ -39127,8 +39127,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   CS u0 {1,S} {7,D}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 7   Sd u0 {3,D}
 """,
@@ -39148,8 +39148,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -39168,8 +39168,8 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -39187,9 +39187,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39206,9 +39206,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -39230,9 +39230,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39249,9 +39249,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   C  u0 {2,D}
 """,
     thermo = None,
@@ -39269,9 +39269,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Cd u0 {2,D}
 """,
     thermo = None,
@@ -39289,9 +39289,9 @@ entry(
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
-3   Ss  u0 {1,S}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   Cdd u0 {2,D}
 """,
     thermo = None,
@@ -39310,9 +39310,9 @@ entry(
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   Sd  u0 {3,D}
 """,
     thermo = None,
@@ -39331,9 +39331,9 @@ entry(
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
-6   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
+6   S2s  u0 {1,S}
 7   C   u0 {3,D}
 """,
     thermo = None,
@@ -39351,9 +39351,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39370,9 +39370,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39389,9 +39389,9 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 6   Sd u0 {2,D}
 """,
     thermo = None,
@@ -39408,10 +39408,10 @@ entry(
     group = 
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
-5   Ss u0 {1,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
+5   S2s u0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -39428,8 +39428,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -39447,8 +39447,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -39471,8 +39471,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -39490,8 +39490,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -39510,8 +39510,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {2,D}
 """,
@@ -39530,8 +39530,8 @@ entry(
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
-3   Ss  u0 {1,S}
-4   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -39551,8 +39551,8 @@ entry(
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
 """,
@@ -39572,8 +39572,8 @@ entry(
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Ss  u0 {1,S}
-5   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -39592,8 +39592,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -39611,8 +39611,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -39630,8 +39630,8 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
-3   Ss u0 {1,S}
-4   Ss u0 {1,S}
+3   S2s u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Sd u0 {2,D}
 """,
@@ -39651,7 +39651,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -39670,7 +39670,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -39694,7 +39694,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -39718,7 +39718,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -39738,7 +39738,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {2,D}
 """,
@@ -39758,7 +39758,7 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cs  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -39779,7 +39779,7 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
 """,
@@ -39800,7 +39800,7 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cs  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -39820,7 +39820,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -39839,7 +39839,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 7   C  u0 {3,D}
@@ -39860,7 +39860,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cd u0 {1,S} {7,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {2,D}
 7   Cd u0 {3,D}
@@ -39881,7 +39881,7 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cd  u0 {3,D}
@@ -39903,7 +39903,7 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Cd  u0 {3,D}
 8   Sd  u0 {4,D}
@@ -39925,7 +39925,7 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   Cd  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Cd  u0 {3,D}
 8   C   u0 {4,D}
@@ -39946,7 +39946,7 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cd  u0 {1,S} {7,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 7   Cdd u0 {3,D}
@@ -39969,7 +39969,7 @@ entry(
 3   Cd  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   H   u0 {1,S}
 8   Sd  u0 {4,D}
 9   Sd  u0 {5,D}
@@ -39992,7 +39992,7 @@ entry(
 3   Cd  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   H   u0 {1,S}
 8   Sd  u0 {4,D}
 9   C   u0 {5,D}
@@ -40015,7 +40015,7 @@ entry(
 3   Cd  u0 {1,S} {5,D}
 4   Cdd u0 {2,D} {8,D}
 5   Cdd u0 {3,D} {9,D}
-6   Ss  u0 {1,S}
+6   S2s  u0 {1,S}
 7   H   u0 {1,S}
 8   C   u0 {4,D}
 9   C   u0 {5,D}
@@ -40036,7 +40036,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -40060,7 +40060,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -40079,7 +40079,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -40099,7 +40099,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {2,D}
 """,
@@ -40119,7 +40119,7 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Ct  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -40140,7 +40140,7 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
 """,
@@ -40161,7 +40161,7 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Ct  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -40181,7 +40181,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -40200,7 +40200,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -40224,7 +40224,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cd u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -40243,7 +40243,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
 """,
@@ -40263,7 +40263,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {2,D}
 """,
@@ -40283,7 +40283,7 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
 3   Cb  u0 {1,S}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
 """,
@@ -40304,7 +40304,7 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
 """,
@@ -40325,7 +40325,7 @@ entry(
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
 4   Cb  u0 {1,S}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
 """,
@@ -40345,7 +40345,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -40364,7 +40364,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 """,
     thermo = None,
@@ -40383,7 +40383,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   Cb u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Sd u0 {2,D}
 """,
@@ -40403,7 +40403,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   CS u0 {1,S} {7,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Sd u0 {2,D}
 7   Sd u0 {3,D}
@@ -40424,7 +40424,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   Cs u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Sd u0 {2,D}
 """,
@@ -40449,7 +40449,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
 3   Ct u0 {1,S}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Sd u0 {2,D}
 """,
@@ -40469,7 +40469,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {3,D}
 7   Sd u0 {2,D}
@@ -40490,7 +40490,7 @@ entry(
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   CS  u0 {1,S} {7,D}
 3   Cd  u0 {1,S} {6,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {3,D}
 7   Sd  u0 {2,D}
@@ -40512,7 +40512,7 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
 8   C   u0 {4,D}
@@ -40534,7 +40534,7 @@ entry(
 2   Cd  u0 {1,S} {4,D}
 3   CS  u0 {1,S} {7,D}
 4   Cdd u0 {2,D} {8,D}
-5   Ss  u0 {1,S}
+5   S2s  u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
 8   Sd  u0 {4,D}
@@ -40555,7 +40555,7 @@ entry(
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {7,D}
 3   Cd u0 {1,S} {6,D}
-4   Ss u0 {1,S}
+4   S2s u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {3,D}
 7   Sd u0 {2,D}
@@ -40575,7 +40575,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -40594,7 +40594,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -40618,7 +40618,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -40642,7 +40642,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   C  u0 {2,D}
@@ -40662,7 +40662,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   Cd u0 {2,D}
@@ -40682,7 +40682,7 @@ entry(
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
-3   Ss  u0 {1,S}
+3   S2s  u0 {1,S}
 4   H   u0 {1,S}
 5   H   u0 {1,S}
 6   Cdd u0 {2,D}
@@ -40703,7 +40703,7 @@ entry(
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
 7   Sd  u0 {3,D}
@@ -40724,7 +40724,7 @@ entry(
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
 3   Cdd u0 {2,D} {7,D}
-4   Ss  u0 {1,S}
+4   S2s  u0 {1,S}
 5   H   u0 {1,S}
 6   H   u0 {1,S}
 7   C   u0 {3,D}
@@ -40744,7 +40744,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -40768,7 +40768,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 """,
@@ -40792,7 +40792,7 @@ entry(
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
-3   Ss u0 {1,S}
+3   S2s u0 {1,S}
 4   H  u0 {1,S}
 5   H  u0 {1,S}
 6   Sd u0 {2,D}
@@ -42188,7 +42188,7 @@ entry(
 """
 1 * S u0
 """,
-    thermo = u'Ss-CsCs',
+    thermo = u'S2s-CsCs',
     shortDesc = u"""""",
     longDesc = 
 u"""
@@ -42255,10 +42255,10 @@ u"""
 
 entry(
     index = -1,
-    label = "Ss",
+    label = "S2s",
     group = 
 """
-1 * Ss u0
+1 * S2s u0
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -42270,10 +42270,10 @@ u"""
 
 entry(
     index = 1132,
-    label = "Ss-HH",
+    label = "S2s-HH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -42292,10 +42292,10 @@ u"""
 
 entry(
     index = -1,
-    label = "Ss-CH",
+    label = "S2s-CH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -42309,10 +42309,10 @@ u"""
 
 entry(
     index = 1133,
-    label = "Ss-CsH",
+    label = "S2s-CsH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -42331,10 +42331,10 @@ u"""
 
 entry(
     index = 1134,
-    label = "Ss-CdH",
+    label = "S2s-CdH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -42353,10 +42353,10 @@ u"""
 
 entry(
     index = 1135,
-    label = "Ss-CtH",
+    label = "S2s-CtH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Ct u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -42375,10 +42375,10 @@ u"""
 
 entry(
     index = 1136,
-    label = "Ss-CbH",
+    label = "S2s-CbH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cb u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -42397,10 +42397,10 @@ u"""
 
 entry(
     index = 1462,
-    label = "Ss-COH",
+    label = "S2s-COH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
 3   H  u0 {1,S}
 4   Od u0 {2,D}
@@ -42420,10 +42420,10 @@ u"""
 
 entry(
     index = 1153,
-    label = "Ss-C=SH",
+    label = "S2s-C=SH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   CS u0 {1,S} {4,D}
 3   H  u0 {1,S}
 4   Sd u0 {2,D}
@@ -42443,11 +42443,11 @@ u"""
 
 entry(
     index = 1147,
-    label = "Ss-SsH",
+    label = "S2s-SsH",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   H  u0 {1,S}
 """,
     thermo = ThermoData(
@@ -42465,12 +42465,12 @@ u"""
 
 entry(
     index = 1152,
-    label = "Ss-SsSs",
+    label = "S2s-SsSs",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
-3   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
+3   S2s u0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -42487,11 +42487,11 @@ u"""
 
 entry(
     index = -1,
-    label = "Ss-SsC",
+    label = "S2s-SsC",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   C  u0 {1,S}
 """,
     thermo = None,
@@ -42504,11 +42504,11 @@ u"""
 
 entry(
     index = 1148,
-    label = "Ss-SsCs",
+    label = "S2s-SsCs",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   Cs u0 {1,S}
 """,
     thermo = ThermoData(
@@ -42526,11 +42526,11 @@ u"""
 
 entry(
     index = 1149,
-    label = "Ss-SsCd",
+    label = "S2s-SsCd",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   Cd u0 {1,S}
 """,
     thermo = ThermoData(
@@ -42548,11 +42548,11 @@ u"""
 
 entry(
     index = 1150,
-    label = "Ss-SsCt",
+    label = "S2s-SsCt",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   Ct u0 {1,S}
 """,
     thermo = ThermoData(
@@ -42570,11 +42570,11 @@ u"""
 
 entry(
     index = 1151,
-    label = "Ss-SsCb",
+    label = "S2s-SsCb",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   Cb u0 {1,S}
 """,
     thermo = ThermoData(
@@ -42592,11 +42592,11 @@ u"""
 
 entry(
     index = 1159,
-    label = "Ss-C=SSs",
+    label = "S2s-C=SSs",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
-2   Ss u0 {1,S}
+1 * S2s u0 {2,S} {3,S}
+2   S2s u0 {1,S}
 3   CS u0 {1,S} {4,D}
 4   Sd u0 {3,D}
 """,
@@ -42615,10 +42615,10 @@ u"""
 
 entry(
     index = -1,
-    label = "Ss-CC",
+    label = "S2s-CC",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 """,
@@ -42632,10 +42632,10 @@ u"""
 
 entry(
     index = 1137,
-    label = "Ss-CsCs",
+    label = "S2s-CsCs",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   Cs u0 {1,S}
 """,
@@ -42654,10 +42654,10 @@ u"""
 
 entry(
     index = 1138,
-    label = "Ss-CsCd",
+    label = "S2s-CsCd",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   Cd u0 {1,S}
 """,
@@ -42676,10 +42676,10 @@ u"""
 
 entry(
     index = 1463,
-    label = "Ss-CsCO",
+    label = "S2s-CsCO",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   CO u0 {1,S} {4,D}
 4   Od u0 {3,D}
@@ -42699,10 +42699,10 @@ u"""
 
 entry(
     index = 1139,
-    label = "Ss-CsCt",
+    label = "S2s-CsCt",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   Ct u0 {1,S}
 """,
@@ -42721,10 +42721,10 @@ u"""
 
 entry(
     index = 1140,
-    label = "Ss-CsCb",
+    label = "S2s-CsCb",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   Cb u0 {1,S}
 """,
@@ -42743,10 +42743,10 @@ u"""
 
 entry(
     index = 1141,
-    label = "Ss-CdCd",
+    label = "S2s-CdCd",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   Cd u0 {1,S}
 """,
@@ -42765,10 +42765,10 @@ u"""
 
 entry(
     index = 1142,
-    label = "Ss-CdCt",
+    label = "S2s-CdCt",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   Ct u0 {1,S}
 """,
@@ -42787,10 +42787,10 @@ u"""
 
 entry(
     index = 1143,
-    label = "Ss-CdCb",
+    label = "S2s-CdCb",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   Cb u0 {1,S}
 """,
@@ -42809,10 +42809,10 @@ u"""
 
 entry(
     index = 1144,
-    label = "Ss-CtCt",
+    label = "S2s-CtCt",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Ct u0 {1,S}
 3   Ct u0 {1,S}
 """,
@@ -42831,10 +42831,10 @@ u"""
 
 entry(
     index = 1145,
-    label = "Ss-CtCb",
+    label = "S2s-CtCb",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Ct u0 {1,S}
 3   Cb u0 {1,S}
 """,
@@ -42853,10 +42853,10 @@ u"""
 
 entry(
     index = 1146,
-    label = "Ss-CbCb",
+    label = "S2s-CbCb",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cb u0 {1,S}
 3   Cb u0 {1,S}
 """,
@@ -42875,10 +42875,10 @@ u"""
 
 entry(
     index = 1154,
-    label = "Ss-C=SCs",
+    label = "S2s-C=SCs",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   CS u0 {1,S} {4,D}
 4   Sd u0 {3,D}
@@ -42898,10 +42898,10 @@ u"""
 
 entry(
     index = 1156,
-    label = "Ss-C=SCt",
+    label = "S2s-C=SCt",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   CS u0 {1,S} {4,D}
 3   Ct u0 {1,S}
 4   Sd u0 {2,D}
@@ -42921,10 +42921,10 @@ u"""
 
 entry(
     index = 1158,
-    label = "Ss-C=SC=S",
+    label = "S2s-C=SC=S",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   CS u0 {1,S} {4,D}
 3   CS u0 {1,S} {5,D}
 4   Sd u0 {2,D}
@@ -42945,10 +42945,10 @@ u"""
 
 entry(
     index = 1155,
-    label = "Ss-C=SCd",
+    label = "S2s-C=SCd",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   CS u0 {1,S} {4,D}
 4   Sd u0 {3,D}
@@ -42968,10 +42968,10 @@ u"""
 
 entry(
     index = 1157,
-    label = "Ss-C=SCb",
+    label = "S2s-C=SCb",
     group = 
 """
-1 * Ss u0 {2,S} {3,S}
+1 * S2s u0 {2,S} {3,S}
 2   CS u0 {1,S} {4,D}
 3   Cb u0 {1,S}
 4   Sd u0 {2,D}
@@ -44335,7 +44335,7 @@ L1: R
         L3: Cb
             L4: Cb-H
             L4: Cb-Os
-            L4: Cb-Ss
+            L4: Cb-S2s
             L4: Cb-N3s
             L4: Cb-C
                 L5: Cb-Cs
@@ -44589,27 +44589,27 @@ L1: R
             L4: Cds-CdCS
                 L5: Cds-CdsCsSs
                 L5: Cds-CdsCdsSs
-                    L6: Cds-Cds(Cds-Cd)Ss
-                        L7: Cds-Cds(Cds-Cds)Ss
-                        L7: Cds-Cds(Cds-Cdd)Ss
-                            L8: Cds-Cds(Cds-Cdd-Sd)Ss
-                            L8: Cds-Cds(Cds-Cdd-Cd)Ss
+                    L6: Cds-Cds(Cds-Cd)S2s
+                        L7: Cds-Cds(Cds-Cds)S2s
+                        L7: Cds-Cds(Cds-Cdd)S2s
+                            L8: Cds-Cds(Cds-Cdd-Sd)S2s
+                            L8: Cds-Cds(Cds-Cdd-Cd)S2s
                 L5: Cds-CdsCtSs
                 L5: Cds-CdsCbSs
                 L5: Cds-CddCsSs
                     L6: Cds-(Cdd-Sd)CsSs
                     L6: Cds-(Cdd-Cd)CsSs
                 L5: Cds-CddCdsSs
-                    L6: Cds-(Cdd-Sd)(Cds-Cd)Ss
-                        L7: Cds-(Cdd-Sd)(Cds-Cds)Ss
-                        L7: Cds-(Cdd-Sd)(Cds-Cdd)Ss
-                            L8: Cds-(Cdd-Sd)(Cds-Cdd-Sd)Ss
-                            L8: Cds-(Cdd-Sd)(Cds-Cdd-Cd)Ss
-                    L6: Cds-(Cdd-Cd)(Cds-Cd)Ss
-                        L7: Cds-(Cdd-Cd)(Cds-Cds)Ss
-                        L7: Cds-(Cdd-Cd)(Cds-Cdd)Ss
-                            L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)Ss
-                            L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ss
+                    L6: Cds-(Cdd-Sd)(Cds-Cd)S2s
+                        L7: Cds-(Cdd-Sd)(Cds-Cds)S2s
+                        L7: Cds-(Cdd-Sd)(Cds-Cdd)S2s
+                            L8: Cds-(Cdd-Sd)(Cds-Cdd-Sd)S2s
+                            L8: Cds-(Cdd-Sd)(Cds-Cdd-Cd)S2s
+                    L6: Cds-(Cdd-Cd)(Cds-Cd)S2s
+                        L7: Cds-(Cdd-Cd)(Cds-Cds)S2s
+                        L7: Cds-(Cdd-Cd)(Cds-Cdd)S2s
+                            L8: Cds-(Cdd-Cd)(Cds-Cdd-Sd)S2s
+                            L8: Cds-(Cdd-Cd)(Cds-Cdd-Cd)S2s
                 L5: Cds-CddCtSs
                     L6: Cds-(Cdd-Sd)CtSs
                     L6: Cds-(Cdd-Cd)CtSs
@@ -44882,11 +44882,11 @@ L1: R
             L4: C=S-CSs
                 L5: C=S-CbSs
                 L5: C=S-CdsSs
-                    L6: C=S-(Cds-Cd)Ss
-                        L7: C=S-(Cds-Cds)Ss
-                        L7: C=S-(Cds-Cdd)Ss
-                            L8: C=S-(Cds-Cdd-Cd)Ss
-                            L8: C=S-(Cds-Cdd-Sd)Ss
+                    L6: C=S-(Cds-Cd)S2s
+                        L7: C=S-(Cds-Cds)S2s
+                        L7: C=S-(Cds-Cdd)S2s
+                            L8: C=S-(Cds-Cdd-Cd)S2s
+                            L8: C=S-(Cds-Cdd-Sd)S2s
                 L5: C=S-CtSs
                 L5: C=S-CsSs
                 L5: C=S-C=SSs
@@ -46000,20 +46000,20 @@ L1: R
                 L5: Cs-CbCtCsSs
                 L5: Cs-CbCbCsSs
                 L5: Cs-CdsCdsCdsSs
-                    L6: Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ss
-                        L7: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ss
-                        L7: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Ss
-                            L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)Ss
-                            L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ss
-                        L7: Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Ss
-                            L8: Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss
-                            L8: Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss
-                            L8: Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
-                        L7: Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Ss
-                            L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss
-                            L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss
-                            L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
-                            L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
+                    L6: Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)S2s
+                        L7: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)S2s
+                        L7: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)S2s
+                            L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Sd)S2s
+                            L8: Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)S2s
+                        L7: Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)S2s
+                            L8: Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Sd)S2s
+                            L8: Cs-(Cds-Cds)(Cds-Cdd-Sd)(Cds-Cdd-Cd)S2s
+                            L8: Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s
+                        L7: Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)S2s
+                            L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Sd)S2s
+                            L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Sd)(Cds-Cdd-Cd)S2s
+                            L8: Cs-(Cds-Cdd-Sd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s
+                            L8: Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s
                 L5: Cs-CtCdsCdsSs
                     L6: Cs-(Cds-Cd)(Cds-Cd)CtSs
                         L7: Cs-(Cds-Cds)(Cds-Cds)CtSs
@@ -46058,15 +46058,15 @@ L1: R
                 L5: Cs-CbCbCbSs
                 L5: Cs-C=SCbCsSs
                 L5: Cs-C=SCsCsSs
-                L5: Cs-C=S(Cds-Cd)(Cds-Cd)Ss
-                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)Ss
-                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ss
-                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)Ss
-                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)Ss
-                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)Ss
-                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)Ss
-                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)Ss
-                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)Ss
+                L5: Cs-C=S(Cds-Cd)(Cds-Cd)S2s
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cdd)S2s
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cdd-Cd)S2s
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Cd)S2s
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cdd-Sd)S2s
+                    L6: Cs-C=S(Cds-Cdd)(Cds-Cds)S2s
+                        L7: Cs-C=S(Cds-Cdd-Cd)(Cds-Cds)S2s
+                        L7: Cs-C=S(Cds-Cdd-Sd)(Cds-Cds)S2s
+                    L6: Cs-C=S(Cds-Cds)(Cds-Cds)S2s
                 L5: Cs-C=S(Cds-Cd)CtSs
                     L6: Cs-C=S(Cds-Cds)CtSs
                     L6: Cs-C=S(Cds-Cdd)CtSs
@@ -46074,11 +46074,11 @@ L1: R
                         L7: Cs-C=S(Cds-Cdd-Cd)CtSs
                 L5: Cs-C=SCtCsSs
                 L5: Cs-C=SC=SC=SSs
-                L5: Cs-C=SC=S(Cds-Cd)Ss
-                    L6: Cs-C=SC=S(Cds-Cds)Ss
-                    L6: Cs-C=SC=S(Cds-Cdd)Ss
-                        L7: Cs-C=SC=S(Cds-Cdd-Sd)Ss
-                        L7: Cs-C=SC=S(Cds-Cdd-Cd)Ss
+                L5: Cs-C=SC=S(Cds-Cd)S2s
+                    L6: Cs-C=SC=S(Cds-Cds)S2s
+                    L6: Cs-C=SC=S(Cds-Cdd)S2s
+                        L7: Cs-C=SC=S(Cds-Cdd-Sd)S2s
+                        L7: Cs-C=SC=S(Cds-Cdd-Cd)S2s
                 L5: Cs-C=SCbCbSs
                 L5: Cs-C=SC=SCbSs
                 L5: Cs-C=SC=SCsSs
@@ -46288,40 +46288,40 @@ L1: R
         L3: Sd
             L4: Sd-Cd
             L4: Sd-Sd
-        L3: Ss
-            L4: Ss-HH
-            L4: Ss-CH
-                L5: Ss-CsH
-                L5: Ss-CdH
-                L5: Ss-CtH
-                L5: Ss-CbH
-                L5: Ss-COH
-                L5: Ss-C=SH
-            L4: Ss-SsH
-            L4: Ss-SsSs
-            L4: Ss-SsC
-                L5: Ss-SsCs
-                L5: Ss-SsCd
-                L5: Ss-SsCt
-                L5: Ss-SsCb
-                L5: Ss-C=SSs
-            L4: Ss-CC
-                L5: Ss-CsCs
-                L5: Ss-CsCd
-                L5: Ss-CsCO
-                L5: Ss-CsCt
-                L5: Ss-CsCb
-                L5: Ss-CdCd
-                L5: Ss-CdCt
-                L5: Ss-CdCb
-                L5: Ss-CtCt
-                L5: Ss-CtCb
-                L5: Ss-CbCb
-                L5: Ss-C=SCs
-                L5: Ss-C=SCt
-                L5: Ss-C=SC=S
-                L5: Ss-C=SCd
-                L5: Ss-C=SCb
+        L3: S2s
+            L4: S2s-HH
+            L4: S2s-CH
+                L5: S2s-CsH
+                L5: S2s-CdH
+                L5: S2s-CtH
+                L5: S2s-CbH
+                L5: S2s-COH
+                L5: S2s-C=SH
+            L4: S2s-SsH
+            L4: S2s-SsSs
+            L4: S2s-SsC
+                L5: S2s-SsCs
+                L5: S2s-SsCd
+                L5: S2s-SsCt
+                L5: S2s-SsCb
+                L5: S2s-C=SSs
+            L4: S2s-CC
+                L5: S2s-CsCs
+                L5: S2s-CsCd
+                L5: S2s-CsCO
+                L5: S2s-CsCt
+                L5: S2s-CsCb
+                L5: S2s-CdCd
+                L5: S2s-CdCt
+                L5: S2s-CdCb
+                L5: S2s-CtCt
+                L5: S2s-CtCb
+                L5: S2s-CbCb
+                L5: S2s-C=SCs
+                L5: S2s-C=SCt
+                L5: S2s-C=SC=S
+                L5: S2s-C=SCd
+                L5: S2s-C=SCb
     L2: N
         L3: N1d
         L3: N3s
