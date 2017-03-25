@@ -647,10 +647,9 @@ u"""
 """,
 )
 
-temporarily removed until multivalent Sulfur is implemented
  entry(
      index = 26,
-     label = "SdOdOdN",
+     label = "SddOdOdN",
      group = 
  """
  1 * S6dd u0 {2,D} {3,D} {4,S}
@@ -897,6 +896,7 @@ L1: R
         L3: Cd(Od)NH-arom
     L2: N3sCd(Od)N3sH
     L2: CdsNdNsNs
+    L2: SddOdOdN
 """
 )
 
