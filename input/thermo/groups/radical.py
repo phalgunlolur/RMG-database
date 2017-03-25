@@ -4832,11 +4832,11 @@ entry(
     label = "CsJ-C=SSsH",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CS u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CS  u0 {1,S} {5,D}
 3   S2s u0 {1,S}
-4   H  u0 {1,S}
-5   Sd u0 {2,D}
+4   H   u0 {1,S}
+5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -4967,11 +4967,11 @@ entry(
     label = "CsJ-CsC=SSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CS u0 {1,S} {5,D}
-3   Cs u0 {1,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CS  u0 {1,S} {5,D}
+3   Cs  u0 {1,S}
 4   S2s u0 {1,S}
-5   Sd u0 {2,D}
+5   S2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -5128,11 +5128,11 @@ entry(
     label = "CsJ-C=SSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
-2   CS u0 {1,S} {5,D}
+1 * Cs  u1 {2,S} {3,S} {4,S}
+2   CS  u0 {1,S} {5,D}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
-5   Sd u0 {2,D}
+5   S2d u0 {2,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -5147,7 +5147,7 @@ entry(
     label = "CsJ-SsSsSs",
     group = 
 """
-1 * Cs u1 {2,S} {3,S} {4,S}
+1 * Cs  u1 {2,S} {3,S} {4,S}
 2   S2s u0 {1,S}
 3   S2s u0 {1,S}
 4   S2s u0 {1,S}
@@ -6465,8 +6465,8 @@ entry(
     label = "C=SJ",
     group = 
 """
-1 * CS u1 {2,D}
-2   Sd u0 {1,D}
+1 * CS  u1 {2,D}
+2   S2d u0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6481,9 +6481,9 @@ entry(
     label = "C=SJ-S2s",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
+1 * CS  u1 {2,S} {3,D}
 2   S2s u0 {1,S}
-3   Sd u0 {1,D}
+3   S2d u0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6498,9 +6498,9 @@ entry(
     label = "C=SJ-H",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   H  u0 {1,S}
-3   Sd u0 {1,D}
+1 * CS  u1 {2,S} {3,D}
+2   H   u0 {1,S}
+3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6520,9 +6520,9 @@ entry(
     label = "C=SJ-C",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   C  u0 {1,S}
-3   Sd u0 {1,D}
+1 * CS  u1 {2,S} {3,D}
+2   C   u0 {1,S}
+3   S2d u0 {1,D}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -6537,9 +6537,9 @@ entry(
     label = "C=SJ-Cd",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   Cd u0 {1,S}
-3   Sd u0 {1,D}
+1 * CS  u1 {2,S} {3,D}
+2   Cd  u0 {1,S}
+3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -6559,9 +6559,9 @@ entry(
     label = "C=SJ-Cs",
     group = 
 """
-1 * CS u1 {2,S} {3,D}
-2   Cs u0 {1,S}
-3   Sd u0 {1,D}
+1 * CS  u1 {2,S} {3,D}
+2   Cs  u0 {1,S}
+3   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7373,8 +7373,8 @@ entry(
     group = 
 """
 1 * S2s u1 {2,S}
-2   CS u0 {1,S} {3,D}
-3   Sd u0 {2,D}
+2   CS  u0 {1,S} {3,D}
+3   S2d u0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -7716,8 +7716,8 @@ entry(
     label = "CdJ2-Sd_triplet",
     group = 
 """
-1 * CS u2 {2,D}
-2   Sd u0 {1,D}
+1 * CS  u2 {2,D}
+2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -8023,8 +8023,8 @@ entry(
     label = "CdJ2-Sd_singlet",
     group = 
 """
-1 * CS u0 p1 {2,D}
-2   Sd u0 {1,D}
+1 * CS  u0 p1 {2,D}
+2   S2d u0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
