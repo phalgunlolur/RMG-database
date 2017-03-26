@@ -1101,7 +1101,7 @@ u"""
 
 entry(
     index = 34,
-    label = "Sds",
+    label = "Sss",
     group = 
 """
 1 * S2s u0 p1 {2,S} {3,S}
@@ -1124,7 +1124,7 @@ u"""
 
 entry(
     index = 35,
-    label = "SdsOsOdOd",
+    label = "SddsOsOdOd",
     group = 
  """
  1 * S6dd u0 {2,D} {3,D} {4,S} {5,S}
@@ -1199,8 +1199,9 @@ L1: R
     L2: S
         L3: S2s
             L4: S2s-aromatic
+            L4: Sss
         L3: S2d
-            L4: Sds
+        L3: SddsOsOdOd
 """
 )
 
