@@ -16153,7 +16153,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    R  u0 {1,S}
+2    R   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16164,7 +16164,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    H  u0 {1,S}
+2    H   u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16175,7 +16175,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    Cs u0 {1,S}
+2    Cs  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16196,7 +16196,7 @@ entry(
     label = "SsJ-OneDe",
     group = 
 """
-1 *3 S2s                       u1 {2,S}
+1 *3 S2s                      u1 {2,S}
 2    [Cd,Ct,Cb,CO,CS,N3d,N5d] u0 {1,S}
 """,
     kinetics = None,
@@ -16208,7 +16208,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    Ct u0 {1,S}
+2    Ct  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16219,7 +16219,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    Cb u0 {1,S}
+2    Cb  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16230,7 +16230,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    CO u0 {1,S}
+2    CO  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16241,8 +16241,8 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    Cd u0 {1,S} {3,D}
-3    C  u0 {2,D}
+2    Cd  u0 {1,S} {3,D}
+3    C   u0 {2,D}
 """,
     kinetics = None,
 )
@@ -16253,7 +16253,7 @@ entry(
     group = 
 """
 1 *3 S2s u1 {2,S}
-2    CS u0 {1,S}
+2    CS  u0 {1,S}
 """,
     kinetics = None,
 )
@@ -16302,9 +16302,9 @@ entry(
     label = "N3sJ-NonDeH",
     group = 
 """
-1 *3 N3s                u1 {2,S} {3,S}
+1 *3 N3s                 u1 {2,S} {3,S}
 2    [Os,S2s,N3s,N5s,Cs] u0 {1,S}
-3    H                  u0 {1,S}
+3    H                   u0 {1,S}
 """,
     kinetics = None,
 )
